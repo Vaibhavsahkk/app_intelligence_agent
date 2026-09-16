@@ -1,4 +1,4 @@
-# Composio AI Product Ops: 100-App Research Agent & Case Study
+# App Intelligence Agent: 100-App Autonomous Research Pipeline & Case Study
 
 An autonomous research pipeline and interactive case study evaluating 100 enterprise, developer, and consumer applications across 10 categories for AI agent tool and MCP (Model Context Protocol) buildability.
 
@@ -6,7 +6,7 @@ An autonomous research pipeline and interactive case study evaluating 100 enterp
 
 ## Executive Summary
 
-Composio turns software applications into agent-callable tools. Before building integration toolkits for any platform, rigorous operational research is required to evaluate:
+Modern AI agents require robust toolkits and Model Context Protocol (MCP) integrations to interact with third-party software platforms. Before building integration toolkits for any application, rigorous operational research is required to evaluate:
 - **Authentication topologies**: OAuth2 vs API Keys vs Session vs Token-based auth
 - **Self-service viability**: Instant developer onboarding vs sales/partner gating
 - **API surface coverage**: REST, GraphQL, WebSocket interfaces and endpoint breadth
@@ -20,7 +20,7 @@ This project implements an autonomous multi-stage research agent with real verif
 ## Repository Architecture
 
 ```
-composio/
+app_intelligence_agent/
 ├── agent/
 │   ├── __init__.py           # Agent package initialization
 │   ├── researcher.py         # Stage 1: Async/HTTP document retrieval & 13-field LLM extraction
@@ -107,8 +107,8 @@ graph TD
 ### 2. Environment Setup
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/composio-app-research.git
-cd composio-app-research
+git clone https://github.com/Vaibhavsahkk/app_intelligence_agent.git
+cd app_intelligence_agent
 
 # Create and activate virtual environment
 python -m venv venv
@@ -158,11 +158,11 @@ The final deliverable is located at `output/index.html`. To deploy as a live URL
    ```bash
    git init
    git add .
-   git commit -m "feat: complete Composio 100-app research agent and deliverable"
+   git commit -m "feat: complete 100-app research agent and deliverable"
    ```
 2. Push to your GitHub repository:
    ```bash
-   git remote add origin https://github.com/your-username/composio-app-research.git
+   git remote add origin https://github.com/Vaibhavsahkk/app_intelligence_agent.git
    git branch -M main
    git push -u origin main
    ```

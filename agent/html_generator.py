@@ -233,7 +233,7 @@ def generate_html(results: list, patterns: dict, accuracy_data: dict = None, man
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Composio App Research: A Case Study in Automated API Analysis</title>
+    <title>App Intelligence &amp; Ecosystem Analysis: 100-App Autonomous Research Case Study</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
@@ -245,7 +245,7 @@ def generate_html(results: list, patterns: dict, accuracy_data: dict = None, man
 
     <header class="bg-white shadow-sm border-b border-gray-200 py-8">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h1 class="text-3xl font-bold text-gray-900">Composio App Research: A Case Study in Automated API Analysis</h1>
+            <h1 class="text-3xl font-bold text-gray-900">App Intelligence &amp; Ecosystem Analysis</h1>
             <p class="text-gray-500 mt-2">Autonomous 100-App Research Agent with Verification Loops, Ground-Truth Audits, &amp; Buildability Clustering</p>
         </div>
     </header>
@@ -255,7 +255,7 @@ def generate_html(results: list, patterns: dict, accuracy_data: dict = None, man
         <!-- Section 0 -->
         <section>
             <h2 class="text-2xl font-bold mb-4">0. The Challenge</h2>
-            <p class="text-lg text-gray-600 max-w-4xl">Composio turns software platforms into tools AI agents can call. Before building an integration toolkit for any app, rigorous research is required to evaluate authentication architectures, self-service developer access vs sales gating, API surface breadth, and Model Context Protocol (MCP) readiness across hundreds of apps. Doing this manually does not scale. This case study automates that research across 100 apps in 10 categories using an autonomous multi-stage agent pipeline with empirical verification loops.</p>
+            <p class="text-lg text-gray-600 max-w-4xl">Modern AI agents require robust toolkits and Model Context Protocol (MCP) integrations to interact with third-party software platforms. Before building integration toolkits for any application, rigorous operational research is required to evaluate authentication architectures, self-service developer access vs sales gating, API surface breadth, and Model Context Protocol (MCP) readiness across hundreds of apps. Doing this manually does not scale. This case study automates that research across 100 apps in 10 categories using an autonomous multi-stage agent pipeline with empirical verification loops.</p>
         </section>
 
         <!-- Section 1 -->
@@ -414,10 +414,10 @@ def generate_html(results: list, patterns: dict, accuracy_data: dict = None, man
     <footer class="bg-gray-800 text-white py-12">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
             <div class="flex justify-center space-x-6">
-                <a href="data.json" download="composio_research.json" class="text-blue-400 hover:text-blue-300">Download JSON</a>
-                <a href="data.csv" download="composio_research.csv" class="text-blue-400 hover:text-blue-300">Download CSV</a>
+                <a href="data.json" download="app_intelligence_data.json" class="text-blue-400 hover:text-blue-300">Download JSON</a>
+                <a href="data.csv" download="app_intelligence_data.csv" class="text-blue-400 hover:text-blue-300">Download CSV</a>
             </div>
-            <p class="text-gray-400 text-sm">Composio AI Product Ops Take-Home Assignment Deliverable</p>
+            <p class="text-gray-400 text-sm">App Intelligence Agent | Autonomous API Research &amp; Ecosystem Analysis</p>
         </div>
     </footer>
 
@@ -425,7 +425,7 @@ def generate_html(results: list, patterns: dict, accuracy_data: dict = None, man
     {json.dumps({
         "@context": "https://schema.org",
         "@type": "Report",
-        "name": "Composio App Research Case Study",
+        "name": "App Intelligence Agent Case Study",
         "about": "Automated API Analysis for 100 Apps"
     })}
     </script>
