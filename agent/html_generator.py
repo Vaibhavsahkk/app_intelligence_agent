@@ -554,19 +554,29 @@ def run_html_generation():
     html = generate_html(results, patterns, accuracy_data, manual_data)
     save_html(html)
 
-    # Also save data.json and data.csv to output/
+    # Also save data.json and data.csv to output/ and docs/ (for GitHub Pages)
     output_dir = os.path.join(os.path.dirname(DATA_DIR), "output")
+    docs_dir = os.path.join(os.path.dirname(DATA_DIR), "docs")
     os.makedirs(output_dir, exist_ok=True)
+    os.makedirs(docs_dir, exist_ok=True)
     
     with open(os.path.join(output_dir, "data.json"), "w", encoding="utf-8") as f:
+        json.dump(results, f, indent=2)
+    with open(os.path.join(docs_dir, "data.json"), "w", encoding="utf-8") as f:
         json.dump(results, f, indent=2)
 
     normalized = [normalize_result(r) for r in results]
     csv_content = generate_csv(normalized)
     with open(os.path.join(output_dir, "data.csv"), "w", encoding="utf-8", newline="") as f:
         f.write(csv_content)
+    with open(os.path.join(docs_dir, "data.csv"), "w", encoding="utf-8", newline="") as f:
+        f.write(csv_content)
+    with open(os.path.join(docs_dir, "index.html"), "w", encoding="utf-8") as f:
+        f.write(html)
+    with open(os.path.join(docs_dir, ".nojekyll"), "w", encoding="utf-8") as f:
+        pass
 
-    logging.info("Saved data.json and data.csv to output/")
+    logging.info("Saved data.json, data.csv, and index.html to output/ and docs/")
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)
