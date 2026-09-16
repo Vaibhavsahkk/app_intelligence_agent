@@ -1,0 +1,334 @@
+[
+  {
+    "app_name": "Salesforce",
+    "manual_verification": {
+      "app_name": "Salesforce",
+      "auth_methods": {
+        "status": "not_found",
+        "quote": null
+      },
+      "self_serve": {
+        "status": "supported",
+        "quote": "Start for free ... There's nothing to install. No credit card required. Free for 30 days Try for free"
+      },
+      "api_type": {
+        "status": "not_found",
+        "quote": null
+      },
+      "has_mcp": {
+        "status": "not_found",
+        "quote": null
+      },
+      "buildability": {
+        "status": "not_found",
+        "quote": null
+      },
+      "has_webhooks": {
+        "status": "not_found",
+        "quote": null
+      }
+    }
+  },
+  {
+    "app_name": "HubSpot",
+    "manual_verification": {
+      "app_name": "HubSpot",
+      "fields": {
+        "auth_methods": {
+          "value": null,
+          "quote": null
+        },
+        "self_serve": {
+          "value": null,
+          "quote": null
+        },
+        "api_type": {
+          "value": "REST",
+          "quote": "Explore our docs to learn more about our APIs, Apps, Developer Tooling, and CMS"
+        },
+        "has_mcp": {
+          "value": false,
+          "quote": null
+        },
+        "buildability": {
+          "value": null,
+          "quote": null
+        },
+        "has_webhooks": {
+          "value": true,
+          "quote": "Use workflows, webhooks, and custom actions to execute the next step the moment data updates"
+        }
+      }
+    }
+  },
+  {
+    "app_name": "Pipedrive",
+    "manual_verification": {
+      "app_name": "Pipedrive",
+      "fields": {
+        "auth_methods": {
+          "verification": "Not explicitly mentioned in the provided text.",
+          "quote": null
+        },
+        "self_serve": {
+          "verification": "Mentioned via self-serve signup options such as 'Sign up for a Sandbox Account today' and 'Sign up for a Sandbox account'.",
+          "quote": "Sign up for a Sandbox Account today to begin experimenting and developing in a risk free environment E-mail First Name Sign up for a Sandbox account"
+        },
+        "api_type": {
+          "verification": "Mentioned via API clients and reference to 'developer API'.",
+          "quote": "Their developer API, well-documented API reference page..."
+        },
+        "has_mcp": {
+          "verification": "Not mentioned in the provided text.",
+          "quote": null
+        },
+        "buildability": {
+          "verification": "Confirmed by references to creating apps, developer platform, API clients, and boilerplates (e.g., 'create-pipedrive-app Create a Pipedrive app with a single command').",
+          "quote": "Build apps & integrations Create a test environment Sign up for a Sandbox Account today to begin experimenting and developing in a risk free environment"
+        },
+        "has_webhooks": {
+          "verification": "Explicitly mentioned in a quote: 'easy use of webhooks allow developers to easily build solutions'.",
+          "quote": "Their developer API, well-documented API reference page and easy use of webhooks allow developers to easily build solutions in the Pipedrive Developer Platform."
+        }
+      }
+    }
+  },
+  {
+    "app_name": "Attio",
+    "manual_verification": {
+      "auth_methods": {
+        "quote": "Not explicitly detailed in the provided documentation text, though REST API, App SDK, and MCP are mentioned.",
+        "verified": false
+      },
+      "self_serve": {
+        "quote": "Not explicitly mentioned in the provided text regarding self-serve onboarding or app publishing.",
+        "verified": false
+      },
+      "api_type": {
+        "quote": "REST API This allows developers to build apps that read and write information to and from Attio workspaces.",
+        "verified": true
+      },
+      "has_mcp": {
+        "quote": "MCP Manage Attio via AI. Connect Claude, ChatGPT or your AI tool of choice to search, update and manage your Attio workspace.",
+        "verified": true
+      },
+      "buildability": {
+        "quote": "App SDK This allows developers to embed Typescript React applications within the Attio interface and run server functions with access to our REST API.",
+        "verified": true
+      },
+      "has_webhooks": {
+        "quote": "You can also subscribe to events in realtime using webhooks.",
+        "verified": true
+      }
+    }
+  },
+  {
+    "app_name": "Twenty",
+    "manual_verification": {
+      "auth_methods": {
+        "verification": "not mentioned",
+        "quote": ""
+      },
+      "self_serve": {
+        "verification": "supported",
+        "quote": "Set up Twenty in under 5 minutes \u2014 cloud or self-hosted."
+      },
+      "api_type": {
+        "verification": "not mentioned",
+        "quote": ""
+      },
+      "has_mcp": {
+        "verification": "supported",
+        "quote": "Skills, Tools, MCP."
+      },
+      "buildability": {
+        "verification": "supported",
+        "quote": "Twenty is a platform you can build on, not a product you configure... React, TypeScript. Your team already knows how to extend Twenty. No proprietary languages..."
+      },
+      "has_webhooks": {
+        "verification": "not mentioned",
+        "quote": ""
+      }
+    }
+  },
+  {
+    "app_name": "Podio",
+    "manual_verification": {
+      "app_name": "Podio",
+      "fields": {
+        "auth_methods": {
+          "value": [],
+          "quote": null,
+          "verification": "The provided documentation snippet does not mention authentication methods (such as OAuth, API keys, etc.), though an endpoint API is mentioned."
+        },
+        "self_serve": {
+          "value": null,
+          "quote": null,
+          "verification": "The documentation does not contain information regarding self-serve capabilities."
+        },
+        "api_type": {
+          "value": "REST",
+          "quote": "\"endpoints\":{\"api\":\"https://api.podio.com\",\"apiProxy\":\"https://podio.com/_proxy\"}",
+          "verification": "An API endpoint is explicitly defined at https://api.podio.com, which is typical for REST APIs."
+        },
+        "has_mcp": {
+          "value": false,
+          "quote": null,
+          "verification": "There is no mention of the Model Context Protocol (MCP) in the documentation."
+        },
+        "buildability": {
+          "value": null,
+          "quote": null,
+          "verification": "The provided text is a minimal configuration/environment JSON payload and does not contain build or integration instructions."
+        },
+        "has_webhooks": {
+          "value": false,
+          "quote": null,
+          "verification": "There is no mention of webhooks in the provided documentation snippet."
+        }
+      }
+    }
+  },
+  {
+    "app_name": "Zoho CRM",
+    "manual_verification": {
+      "app_name": "Zoho CRM",
+      "fields": {
+        "auth_methods": {
+          "value": "Not explicitly stated",
+          "quote": ""
+        },
+        "self_serve": {
+          "value": true,
+          "quote": "Sign up for free"
+        },
+        "api_type": {
+          "value": "REST / Zoho APIs",
+          "quote": "Zoho APIs Build integrations for Zoho using any programming language and infrastructure. Extract or input data in an XML or JSON format between Zoho and third-party apps."
+        },
+        "has_mcp": {
+          "value": true,
+          "quote": "MCP (Model Context Protocol) Turn natural language into real business outcomes by building agent-driven actions across your apps that connect LLMs like GPT or Claude to Zoho\u2019s APIs..."
+        },
+        "buildability": {
+          "value": true,
+          "quote": "Zoho Developer helps you build custom apps, integrate systems, and create industry-specific solutions..."
+        },
+        "has_webhooks": {
+          "value": "Not explicitly stated",
+          "quote": ""
+        }
+      }
+    }
+  },
+  {
+    "app_name": "Close",
+    "manual_verification": {
+      "auth_methods": {
+        "status": "verified",
+        "quotes": [
+          "Authentication API keys for scripts or OAuth 2.0 for user-facing integrations."
+        ]
+      },
+      "self_serve": {
+        "status": "verified",
+        "quotes": [
+          "Create an OAuth app, connect your product, and get listed."
+        ]
+      },
+      "api_type": {
+        "status": "verified",
+        "quotes": [
+          "REST API Reference Full endpoint docs with schemas, examples, and an interactive API explorer."
+        ]
+      },
+      "has_mcp": {
+        "status": "verified",
+        "quotes": [
+          "MCP Server Model Context Protocol for AI agents.",
+          "Power AI agents \u2014 Give Claude, ChatGPT, Cursor, and other tools direct access to Close data via the MCP server \u2014 no code required."
+        ]
+      },
+      "buildability": {
+        "status": "verified",
+        "quotes": [
+          "Build an Integration Create an OAuth app, connect your product, and get listed."
+        ]
+      },
+      "has_webhooks": {
+        "status": "verified",
+        "quotes": [
+          "Webhooks & Events Real-time event notifications and a 30-day event log.",
+          "Sync data out \u2014 Stream changes with webhooks , query the event log"
+        ]
+      }
+    }
+  },
+  {
+    "app_name": "Copper",
+    "manual_verification": {
+      "auth_methods": {
+        "quote": "OAuth2.0 OAuth2.0 Overview Quickstart Guide",
+        "verified": true
+      },
+      "self_serve": {
+        "quote": "The Copper Developer API (\"Dev API\") provides a RESTful interface with JSON-formatted responses to access most Copper resources.",
+        "verified": true
+      },
+      "api_type": {
+        "quote": "The Copper Developer API (\"Dev API\") provides a RESTful interface with JSON-formatted responses to access most Copper resources.",
+        "verified": true
+      },
+      "has_mcp": {
+        "quote": "",
+        "verified": false
+      },
+      "buildability": {
+        "quote": "The Copper Web API allows you to access and build your own applications that interact with Copper in more complex ways than the integrations we provide out of the box.",
+        "verified": true
+      },
+      "has_webhooks": {
+        "quote": "Webhooks Webhooks Overview Create new subscription Update a subscription Delete subscription List all subscriptions View subscription by ID Webhook Notification Example",
+        "verified": true
+      }
+    }
+  },
+  {
+    "app_name": "DealCloud",
+    "manual_verification": {
+      "app": "DealCloud",
+      "fields": {
+        "auth_methods": {
+          "quote": "Authorization Token",
+          "verified": true,
+          "explanation": "The documentation mentions an 'Authorization Token' under the Authorization and API Keys sections."
+        },
+        "self_serve": {
+          "quote": "API Keys",
+          "verified": true,
+          "explanation": "The presence of an 'API Keys' section in the table of contents implies self-service credential generation."
+        },
+        "api_type": {
+          "quote": "API Reference Getting Started API Keys Authorization Token Pagination Rate Limits Status Codes and Handling",
+          "verified": true,
+          "explanation": "The documentation includes standard REST API endpoints, parameters, pagination, and status codes."
+        },
+        "has_mcp": {
+          "quote": "\ud83d\ude80 New: DealCloud MCP Server \u2014 client preview starting July 2026",
+          "verified": true,
+          "explanation": "The documentation explicitly references a 'DealCloud MCP Server' under an MCP section."
+        },
+        "buildability": {
+          "quote": "SDKs Python Installation Authentication Usage Schema Data License C# Installation Authentication Logging Usage Schema Data License",
+          "verified": true,
+          "explanation": "The availability of dedicated Python and C# SDKs confirms the app is buildable with official client libraries."
+        },
+        "has_webhooks": {
+          "quote": "Real-Time Events from DealCloud",
+          "verified": true,
+          "explanation": "The guide 'Real-Time Events from DealCloud' typically indicates webhook functionality for real-time notifications."
+        }
+      }
+    }
+  }
+]

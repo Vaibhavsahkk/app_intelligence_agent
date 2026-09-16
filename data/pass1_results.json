@@ -1,0 +1,3164 @@
+[
+  {
+    "category": "CRM and Sales",
+    "description": "AI-powered customer relationship management platform bringing companies and customers together.",
+    "auth_methods": [
+      "OAuth2",
+      "JWT",
+      "Session"
+    ],
+    "self_serve": "Free trial then paid",
+    "self_serve_detail": "Not found in docs",
+    "api_type": "REST, SOAP",
+    "api_breadth": "Broad (100+ endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": "Not found in docs",
+    "evidence_urls": [
+      "https://www.salesforce.com/in/"
+    ],
+    "sdk_languages": [
+      "Python",
+      "JavaScript",
+      "Java",
+      "Ruby",
+      "PHP",
+      "C#"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": true,
+    "has_sandbox": true,
+    "response_format": "JSON",
+    "app_id": 1,
+    "app_name": "Salesforce",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://salesforce.com"
+  },
+  {
+    "category": "CRM and Sales",
+    "description": "Smart CRM platform providing APIs, tools, and developer resources to build business applications.",
+    "auth_methods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "self_serve": "Self-serve free",
+    "self_serve_detail": "Developers can sign up and access developer tools and documentation for free.",
+    "api_type": "REST",
+    "api_breadth": "Broad (100+ endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": "Not found in docs",
+    "evidence_urls": [
+      "https://developers.hubspot.com/"
+    ],
+    "sdk_languages": [
+      "Python",
+      "JavaScript",
+      "PHP",
+      "Ruby",
+      "Java",
+      "Go"
+    ],
+    "rate_limits": "Varies by plan",
+    "has_webhooks": true,
+    "has_sandbox": true,
+    "response_format": "JSON",
+    "app_id": 2,
+    "app_name": "HubSpot",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://developer.hubspot.com"
+  },
+  {
+    "category": "CRM and Sales",
+    "description": "Sales CRM and pipeline management platform with developer API for building integrations.",
+    "auth_methods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "self_serve": "Free trial then paid",
+    "self_serve_detail": "Developers can sign up for a Sandbox account and access developer tools freely.",
+    "api_type": "REST",
+    "api_breadth": "Broad (100+ endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://developers.pipedrive.com/"
+    ],
+    "sdk_languages": [
+      "JavaScript",
+      "PHP",
+      "Python",
+      ".NET",
+      "Ruby"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": true,
+    "has_sandbox": true,
+    "response_format": "JSON",
+    "app_id": 3,
+    "app_name": "Pipedrive",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://developer.pipedrive.com"
+  },
+  {
+    "category": "CRM and Sales",
+    "description": "Revolutionary highly customizable, powerful, and data-driven CRM platform.",
+    "auth_methods": [
+      "Other"
+    ],
+    "self_serve": "Not found in docs",
+    "self_serve_detail": "Not found in docs",
+    "api_type": "REST",
+    "api_breadth": "Not found in docs",
+    "has_mcp": true,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": null,
+    "evidence_urls": [
+      "/llms.txt"
+    ],
+    "sdk_languages": [
+      "TypeScript"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": true,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 4,
+    "app_name": "Attio",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://developers.attio.com"
+  },
+  {
+    "category": "CRM and Sales",
+    "description": "An open-source, production-ready CRM you can reshape as you go.",
+    "auth_methods": [
+      "Other"
+    ],
+    "self_serve": "Open source / no auth needed",
+    "self_serve_detail": "Twenty is an open-source CRM that can be set up in under 5 minutes, either via cloud or self-hosted.",
+    "api_type": "REST",
+    "api_breadth": "Medium (20-100 endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": "Not found in docs",
+    "evidence_urls": [
+      "https://twenty.com"
+    ],
+    "sdk_languages": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": false,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 5,
+    "app_name": "Twenty",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://docs.twenty.com"
+  },
+  {
+    "category": "CRM and Sales",
+    "description": "Customizable work management and collaboration platform for teams.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "self_serve": "Partner/contact-sales only",
+    "self_serve_detail": "Not found in docs",
+    "api_type": "REST",
+    "api_breadth": "Medium (20-100 endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Minor work",
+    "main_blocker": "Limited documentation provided in source text; requires full developer portal access.",
+    "evidence_urls": [
+      "https://podio.com"
+    ],
+    "sdk_languages": [
+      "None found"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": false,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 6,
+    "app_name": "Podio",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://developer.podio.com"
+  },
+  {
+    "category": "CRM and Sales",
+    "description": "Cloud-based CRM software to manage leads, contacts, deals, and automate sales workflows.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "self_serve": "Free trial then paid",
+    "self_serve_detail": "Sign up for free developer account with access to trial and tiered plans.",
+    "api_type": "REST",
+    "api_breadth": "Broad (100+ endpoints)",
+    "has_mcp": true,
+    "mcp_link": "https://www.zoho.com/developer/",
+    "buildability": "Ready",
+    "main_blocker": "None found",
+    "evidence_urls": [
+      "https://www.zoho.com/developer/"
+    ],
+    "sdk_languages": [
+      "Python",
+      "JavaScript",
+      "Java",
+      "PHP",
+      "Ruby",
+      "C#"
+    ],
+    "rate_limits": "Varies by plan",
+    "has_webhooks": true,
+    "has_sandbox": true,
+    "response_format": "combination",
+    "app_id": 7,
+    "app_name": "Zoho CRM",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://developer.zoho.com"
+  },
+  {
+    "category": "CRM and Sales",
+    "description": "Sales CRM platform enabling automation, data syncing, outreach, and AI agent integration.",
+    "auth_methods": [
+      "API Key",
+      "OAuth2"
+    ],
+    "self_serve": "Self-serve paid",
+    "self_serve_detail": "Available for Close customers automating their sales process or partners building integrations.",
+    "api_type": "REST",
+    "api_breadth": "Broad (100+ endpoints)",
+    "has_mcp": true,
+    "mcp_link": "https://developer.close.com/",
+    "buildability": "Ready",
+    "main_blocker": null,
+    "evidence_urls": [
+      "https://developer.close.com/"
+    ],
+    "sdk_languages": [
+      "Python",
+      "Node.js",
+      "Ruby",
+      "PHP",
+      "Go"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": true,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 8,
+    "app_name": "Close",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://developer.close.com"
+  },
+  {
+    "category": "CRM and Sales",
+    "description": "Access and build custom applications that interact with Copper CRM data.",
+    "auth_methods": [
+      "Not found in docs"
+    ],
+    "self_serve": "Not found in docs",
+    "self_serve_detail": "Not found in docs",
+    "api_type": "REST",
+    "api_breadth": "Not found in docs",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": null,
+    "evidence_urls": [
+      "https://developer.copper.com/"
+    ],
+    "sdk_languages": [
+      "None found"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": false,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 9,
+    "app_name": "Copper",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://developer.copper.com"
+  },
+  {
+    "category": "CRM and Sales",
+    "description": "Manage CRM data, entries, fields, files, and users via DealCloud API.",
+    "auth_methods": [
+      "API Key",
+      "Bearer Token",
+      "OAuth2"
+    ],
+    "self_serve": "Partner/contact-sales only",
+    "self_serve_detail": "Not found in docs",
+    "api_type": "REST",
+    "api_breadth": "Broad (100+ endpoints)",
+    "has_mcp": true,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": "None",
+    "evidence_urls": [
+      "api.docs.dealcloud.com"
+    ],
+    "sdk_languages": [
+      "Python",
+      "C#"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": true,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 10,
+    "app_name": "DealCloud",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://api.docs.dealcloud.com"
+  },
+  {
+    "category": "Support and Helpdesk",
+    "description": "Customer service platform providing ticketing, messaging, knowledge base, and CRM APIs.",
+    "auth_methods": [
+      "Not found in docs"
+    ],
+    "self_serve": "Free trial then paid",
+    "self_serve_detail": "Create a developer account with a free, 14-day trial account.",
+    "api_type": "REST",
+    "api_breadth": "Broad (100+ endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": "None found",
+    "evidence_urls": [
+      "https://developer.zendesk.com/"
+    ],
+    "sdk_languages": [
+      "Not found in docs"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": false,
+    "has_sandbox": true,
+    "response_format": "JSON",
+    "app_id": 11,
+    "app_name": "Zendesk",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://developer.zendesk.com"
+  },
+  {
+    "category": "Support and Helpdesk",
+    "description": "Integrate with Intercom using APIs and SDKs to build AI customer service solutions.",
+    "auth_methods": [
+      "Not found in docs"
+    ],
+    "self_serve": "Self-serve free",
+    "self_serve_detail": "Get started by setting up a free development workspace to test and publish your app.",
+    "api_type": "REST",
+    "api_breadth": "Medium (20-100 endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://developers.intercom.com/"
+    ],
+    "sdk_languages": [
+      "Not found"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": true,
+    "has_sandbox": true,
+    "response_format": "JSON",
+    "app_id": 12,
+    "app_name": "Intercom",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://developers.intercom.com"
+  },
+  {
+    "category": "Support and Helpdesk",
+    "description": "Cloud-based customer support software offering ticketing, helpdesk, and automation tools.",
+    "auth_methods": [
+      "Not found in docs"
+    ],
+    "self_serve": "Self-serve free",
+    "self_serve_detail": "Users can signup for free to get started with a Freshdesk account.",
+    "api_type": "REST",
+    "api_breadth": "Medium (20-100 endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": null,
+    "evidence_urls": [
+      "https://developers.freshdesk.com/"
+    ],
+    "sdk_languages": [
+      "None found"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": false,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 13,
+    "app_name": "Freshdesk",
+    "confidence": "MEDIUM",
+    "docs_fetched": true,
+    "fetched_url": "https://developer.freshdesk.com"
+  },
+  {
+    "category": "Support and Helpdesk",
+    "description": "Unified customer operations platform connecting conversations, external data, and AI automation.",
+    "auth_methods": [
+      "Not found in docs"
+    ],
+    "self_serve": "Free trial then paid",
+    "self_serve_detail": "The page offers a 'Try for free' option alongside 'Request a demo'.",
+    "api_type": "Not found in docs",
+    "api_breadth": "Not found in docs",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Not feasible",
+    "main_blocker": "The provided documentation text contains marketing overview and FAQ content only, with zero API endpoints, developer documentation, authentication details, or technical specifications.",
+    "evidence_urls": [
+      "https://front.com/"
+    ],
+    "sdk_languages": [
+      "Not found in docs"
+    ],
+    "rate_limits": "Not found in docs",
+    "has_webhooks": false,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 14,
+    "app_name": "Front",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://front.com/api"
+  },
+  {
+    "category": "Support and Helpdesk",
+    "description": "Agentic support platform for B2B to track customer issues and orchestrate AI agents.",
+    "auth_methods": [
+      "Not found in docs"
+    ],
+    "self_serve": "Not found in docs",
+    "self_serve_detail": "Not found in docs",
+    "api_type": "REST",
+    "api_breadth": "Not found in docs",
+    "has_mcp": true,
+    "mcp_link": null,
+    "buildability": "Minor work",
+    "main_blocker": "Documentation content provided is sparse and lacks endpoint specifics, requiring reference to llms.txt or full docs.",
+    "evidence_urls": [],
+    "sdk_languages": [
+      "Not found in docs"
+    ],
+    "rate_limits": "Not found in docs",
+    "has_webhooks": true,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 15,
+    "app_name": "Pylon",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://docs.usepylon.com"
+  },
+  {
+    "category": "Support and Helpdesk",
+    "description": "All-in-one customer service platform with AI chatbot, live chat, ticketing, and call center.",
+    "auth_methods": [
+      "Not found in docs"
+    ],
+    "self_serve": "Not found in docs",
+    "self_serve_detail": "Not found in docs",
+    "api_type": "Not found in docs",
+    "api_breadth": "Not found in docs",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Not feasible",
+    "main_blocker": "No API documentation or technical details are present in the provided content.",
+    "evidence_urls": [
+      "https://www.liveagent.com/"
+    ],
+    "sdk_languages": [
+      "None found"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": false,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 16,
+    "app_name": "LiveAgent",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://liveagent.com"
+  },
+  {
+    "category": "Support and Helpdesk",
+    "description": "API-first customer support platform for B2B teams managing threads and queues.",
+    "auth_methods": [
+      "Not found in docs"
+    ],
+    "self_serve": "Not found in docs",
+    "self_serve_detail": "Not found in docs",
+    "api_type": "GraphQL",
+    "api_breadth": "Not found in docs",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://plain.com/docs"
+    ],
+    "sdk_languages": [
+      "Not found in docs"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": false,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 17,
+    "app_name": "Plain",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://docs.plain.com"
+  },
+  {
+    "category": "Support and Helpdesk",
+    "description": "Provides tools and APIs to read and write Help Scout customer support data.",
+    "auth_methods": [
+      "Not found in docs"
+    ],
+    "self_serve": "Not found in docs",
+    "self_serve_detail": "Not found in docs",
+    "api_type": "REST",
+    "api_breadth": "Medium (20-100 endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": "Not found in docs",
+    "evidence_urls": [
+      "https://developer.helpscout.com/"
+    ],
+    "sdk_languages": [
+      "Not found in docs"
+    ],
+    "rate_limits": "Not found in docs",
+    "has_webhooks": true,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 18,
+    "app_name": "Help Scout",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://developer.helpscout.com"
+  },
+  {
+    "category": "Support and Helpdesk",
+    "description": "Customer service helpdesk platform for e-commerce stores providing tools and ticketing integrations.",
+    "auth_methods": [
+      "Other"
+    ],
+    "self_serve": "Self-serve free",
+    "self_serve_detail": "Private apps require no approval, while public apps require joining the developer portal and app store submission.",
+    "api_type": "REST",
+    "api_breadth": "Medium (20-100 endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://developers.gorgias.com"
+    ],
+    "sdk_languages": [
+      "None found"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": false,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 19,
+    "app_name": "Gorgias",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://developers.gorgias.com"
+  },
+  {
+    "category": "Support and Helpdesk",
+    "description": "Customer service platform for managing conversations and integrating support workflows.",
+    "auth_methods": [
+      "Not found in docs"
+    ],
+    "self_serve": "Not found in docs",
+    "self_serve_detail": "Not found in docs",
+    "api_type": "REST",
+    "api_breadth": "Not found in docs",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": null,
+    "evidence_urls": [],
+    "sdk_languages": [
+      "Not found in docs"
+    ],
+    "rate_limits": "Not found in docs",
+    "has_webhooks": true,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 20,
+    "app_name": "Gladly",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://developer.gladly.com"
+  },
+  {
+    "category": "Communications and Messaging",
+    "description": "Collaborative messaging platform for team communication and workflow automation.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "self_serve": "Self-serve free",
+    "self_serve_detail": "Developers can create Slack apps and connect to workspaces using the Slack CLI without prior approval.",
+    "api_type": "REST",
+    "api_breadth": "Broad (100+ endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://api.slack.com/"
+    ],
+    "sdk_languages": [
+      "Java",
+      "JavaScript",
+      "Python"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": true,
+    "has_sandbox": true,
+    "response_format": "JSON",
+    "app_id": 21,
+    "app_name": "Slack",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://api.slack.com"
+  },
+  {
+    "category": "Communications and Messaging",
+    "description": "APIs and tools for SMS, email, voice, and conversational AI communication channels.",
+    "auth_methods": [
+      "Basic Auth",
+      "API Key"
+    ],
+    "self_serve": "Free trial then paid",
+    "self_serve_detail": "Offers a free trial with no credit card required, moving to flexible pay-as-you-go pricing.",
+    "api_type": "REST",
+    "api_breadth": "Broad (100+ endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": "Not found in docs",
+    "evidence_urls": [
+      "https://www.twilio.com/"
+    ],
+    "sdk_languages": [
+      "Python",
+      "C#",
+      "PHP",
+      "Ruby",
+      "Java",
+      "JavaScript"
+    ],
+    "rate_limits": "Not found in docs",
+    "has_webhooks": true,
+    "has_sandbox": true,
+    "response_format": "JSON",
+    "app_id": 22,
+    "app_name": "Twilio",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://developer.twilio.com"
+  },
+  {
+    "category": "Communications and Messaging",
+    "description": "Collaborative messaging platform enabling team communication, bots, integrations, and automated workflows.",
+    "auth_methods": [
+      "OAuth2",
+      "Other"
+    ],
+    "self_serve": "Self-serve free",
+    "self_serve_detail": "Sign up for free is available to create a developer account and access APIs and tools.",
+    "api_type": "REST",
+    "api_breadth": "Medium (20-100 endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": "Not found in docs",
+    "evidence_urls": [
+      "https://www.zoho.com/developer/"
+    ],
+    "sdk_languages": [
+      "None found"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": false,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 23,
+    "app_name": "Zoho Cliq",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://developer.zoho.com"
+  },
+  {
+    "category": "Communications and Messaging",
+    "description": "All-in-one collaboration suite combining chat, calendar, docs, and project management tools.",
+    "auth_methods": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "self_serve": "Admin approval required",
+    "self_serve_detail": "Creating custom apps and getting API credentials typically requires tenant administrator approval or enabling developer mode within the Lark organization console.",
+    "api_type": "REST",
+    "api_breadth": "Broad (100+ endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://open.larksuite.com/document/home/index"
+    ],
+    "sdk_languages": [
+      "Python",
+      "JavaScript",
+      "Go",
+      "Java"
+    ],
+    "rate_limits": "Varies by plan",
+    "has_webhooks": true,
+    "has_sandbox": true,
+    "response_format": "JSON",
+    "app_id": 24,
+    "app_name": "Lark (Larksuite)",
+    "confidence": "LOW",
+    "docs_fetched": false,
+    "fetched_url": ""
+  },
+  {
+    "category": "Communications and Messaging",
+    "description": "Free team communication hub with channels, direct messages, voice calls, and video conferencing.",
+    "auth_methods": [
+      "Not found in docs"
+    ],
+    "self_serve": "Self-serve free",
+    "self_serve_detail": "Provides a free forever tier with unlimited users and channels.",
+    "api_type": "Not found in docs",
+    "api_breadth": "Not found in docs",
+    "has_mcp": true,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": null,
+    "evidence_urls": [
+      "https://pumble.com"
+    ],
+    "sdk_languages": [
+      "Not found in docs"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": false,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 25,
+    "app_name": "Pumble",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://pumble.com"
+  },
+  {
+    "category": "Communications and Messaging",
+    "description": "Build automated apps, commands, bots, and games inside Discord servers.",
+    "auth_methods": [
+      "Not found in docs"
+    ],
+    "self_serve": "Not found in docs",
+    "self_serve_detail": "Not found in docs",
+    "api_type": "Not found in docs",
+    "api_breadth": "Not found in docs",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Not feasible",
+    "main_blocker": "Insufficient documentation content provided to evaluate API specs, auth, or endpoints.",
+    "evidence_urls": [
+      "discord.com"
+    ],
+    "sdk_languages": [
+      "Not found in docs"
+    ],
+    "rate_limits": "Not found in docs",
+    "has_webhooks": false,
+    "has_sandbox": false,
+    "response_format": "Not found in docs",
+    "app_id": 26,
+    "app_name": "Discord",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://docs.discord.com"
+  },
+  {
+    "category": "Communications and Messaging",
+    "description": "Cloud-based mobile and desktop messaging app with API access for bots and custom clients.",
+    "auth_methods": [
+      "API Key",
+      "Other",
+      "Session"
+    ],
+    "self_serve": "Self-serve free",
+    "self_serve_detail": "Free to use and register applications or create bots via BotFather.",
+    "api_type": "REST",
+    "api_breadth": "Broad (100+ endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": "",
+    "evidence_urls": [
+      "https://core.telegram.org/"
+    ],
+    "sdk_languages": [
+      "Python",
+      "JavaScript",
+      "Go",
+      "Ruby",
+      "Java",
+      "Android",
+      "iOS",
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": true,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 27,
+    "app_name": "Telegram",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://developer.telegram.org"
+  },
+  {
+    "category": "Communications and Messaging",
+    "description": "Enables businesses to send messages, manage customer chats, and automate communications at scale.",
+    "auth_methods": [
+      "Bearer Token"
+    ],
+    "self_serve": "Self-serve free",
+    "self_serve_detail": "Developers can sign up for a Meta for Developers account, create an app, and access the WhatsApp Business API test environment immediately for free.",
+    "api_type": "REST",
+    "api_breadth": "Medium (20-100 endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://developers.facebook.com/docs/whatsapp"
+    ],
+    "sdk_languages": [
+      "None found"
+    ],
+    "rate_limits": "Varies by plan",
+    "has_webhooks": true,
+    "has_sandbox": true,
+    "response_format": "JSON",
+    "app_id": 28,
+    "app_name": "WhatsApp Business",
+    "confidence": "LOW",
+    "docs_fetched": false,
+    "fetched_url": ""
+  },
+  {
+    "category": "Communications and Messaging",
+    "description": "Leading communication and intelligence platform offering REST API, MCP, and Webhooks.",
+    "auth_methods": [
+      "Other"
+    ],
+    "self_serve": "Not found in docs",
+    "self_serve_detail": "Not found in docs",
+    "api_type": "Combination",
+    "api_breadth": "Not found in docs",
+    "has_mcp": true,
+    "mcp_link": "https://developer.aircall.io",
+    "buildability": "Ready",
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://developer.aircall.io"
+    ],
+    "sdk_languages": [
+      "None found"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": true,
+    "has_sandbox": true,
+    "response_format": "JSON",
+    "app_id": 29,
+    "app_name": "Aircall",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://developer.aircall.io"
+  },
+  {
+    "category": "Communications and Messaging",
+    "description": "Connect people globally via voice, video, messaging, and AI communication APIs.",
+    "auth_methods": [
+      "JWT",
+      "API Key"
+    ],
+    "self_serve": "Self-serve free",
+    "self_serve_detail": "Developers can create a free account to get started with the platform.",
+    "api_type": "REST",
+    "api_breadth": "Broad (100+ endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": "Not found in docs",
+    "evidence_urls": [
+      "https://developer.vonage.com/"
+    ],
+    "sdk_languages": [
+      "Node.js",
+      "Java",
+      ".NET",
+      "PHP",
+      "Python",
+      "Ruby"
+    ],
+    "rate_limits": "Not found in docs",
+    "has_webhooks": true,
+    "has_sandbox": true,
+    "response_format": "JSON",
+    "app_id": 30,
+    "app_name": "Vonage",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://developer.vonage.com"
+  },
+  {
+    "category": "Marketing, Ads, Email and Social",
+    "description": "Create and manage online advertising campaigns across Google Search, Display, and YouTube.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "self_serve": "Self-serve free",
+    "self_serve_detail": "Developers can sign up for a Google Ads developer token and API access directly.",
+    "api_type": "REST",
+    "api_breadth": "Broad (100+ endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://developers.google.com/google-ads"
+    ],
+    "sdk_languages": [
+      "Python",
+      "Java",
+      "PHP",
+      "Ruby",
+      "Perl",
+      ".NET",
+      "JavaScript"
+    ],
+    "rate_limits": "Varies by plan",
+    "has_webhooks": true,
+    "has_sandbox": true,
+    "response_format": "JSON",
+    "app_id": 31,
+    "app_name": "Google Ads",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://developers.google.com/google-ads"
+  },
+  {
+    "category": "Marketing, Ads, Email and Social",
+    "description": "Manage marketing campaigns, target audiences, and ad performance on Meta platforms.",
+    "auth_methods": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "self_serve": "Admin approval required",
+    "self_serve_detail": "Requires a Meta Developer account, app creation, and review/approval for Marketing API access and specific permissions.",
+    "api_type": "REST",
+    "api_breadth": "Broad (100+ endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": null,
+    "evidence_urls": [
+      "https://developers.facebook.com/docs/marketing-apis"
+    ],
+    "sdk_languages": [
+      "PHP",
+      "Python",
+      "JavaScript",
+      "Ruby",
+      "Java"
+    ],
+    "rate_limits": "Varies by plan",
+    "has_webhooks": true,
+    "has_sandbox": true,
+    "response_format": "JSON",
+    "app_id": 32,
+    "app_name": "Meta Ads",
+    "confidence": "LOW",
+    "docs_fetched": false,
+    "fetched_url": ""
+  },
+  {
+    "category": "Marketing, Ads, Email and Social",
+    "description": "Build and manage advertising campaigns programmatically on LinkedIn.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "self_serve": "Admin approval required",
+    "self_serve_detail": "Not found in docs",
+    "api_type": "REST",
+    "api_breadth": "Medium (20-100 endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": "Not found in docs",
+    "evidence_urls": [
+      "https://learn.microsoft.com/linkedin/marketing"
+    ],
+    "sdk_languages": [
+      "None found"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": false,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 33,
+    "app_name": "LinkedIn Ads",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://developer.microsoft.com"
+  },
+  {
+    "category": "Marketing, Ads, Email and Social",
+    "description": "Not found in docs",
+    "auth_methods": [],
+    "self_serve": "Not found in docs",
+    "self_serve_detail": "Not found in docs",
+    "api_type": "Not found in docs",
+    "api_breadth": "Not found in docs",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Not feasible",
+    "main_blocker": "Insufficient documentation content provided to analyze API capabilities, endpoints, or authentication methods.",
+    "evidence_urls": [
+      "https://highlevel.stoplight.io"
+    ],
+    "sdk_languages": [
+      "None found"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": false,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 34,
+    "app_name": "GoHighLevel",
+    "confidence": "MEDIUM",
+    "docs_fetched": true,
+    "fetched_url": "https://developer.stoplight.io"
+  },
+  {
+    "category": "Marketing, Ads, Email and Social",
+    "description": "Integrate data with intelligent marketing tools and event-driven transactional email and SMS.",
+    "auth_methods": [
+      "Not found in docs"
+    ],
+    "self_serve": "Not found in docs",
+    "self_serve_detail": "Not found in docs",
+    "api_type": "REST",
+    "api_breadth": "Not found in docs",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": "None",
+    "evidence_urls": [
+      "mailchimp.com/developer"
+    ],
+    "sdk_languages": [
+      "Not found in docs"
+    ],
+    "rate_limits": "Not found in docs",
+    "has_webhooks": false,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 35,
+    "app_name": "Mailchimp",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://mailchimp.com/developer"
+  },
+  {
+    "category": "Marketing, Ads, Email and Social",
+    "description": "Build personalized marketing experiences and custom integrations using Klaviyo's API.",
+    "auth_methods": [
+      "API Key",
+      "OAuth2"
+    ],
+    "self_serve": "Self-serve free",
+    "self_serve_detail": "Get started for free and create test accounts to explore the API.",
+    "api_type": "REST",
+    "api_breadth": "Broad (100+ endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": "Not found in docs",
+    "evidence_urls": [
+      "https://developers.klaviyo.com/"
+    ],
+    "sdk_languages": [
+      "Python",
+      "PHP",
+      "Ruby",
+      "Node"
+    ],
+    "rate_limits": "Not found in docs",
+    "has_webhooks": true,
+    "has_sandbox": true,
+    "response_format": "JSON",
+    "app_id": 36,
+    "app_name": "Klaviyo",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://developers.klaviyo.com"
+  },
+  {
+    "category": "Marketing, Ads, Email and Social",
+    "description": "Manage contacts, tags, and core functionalities of the funnel builder platform programmatically.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "self_serve": "Self-serve paid",
+    "self_serve_detail": "API keys can be generated directly from the profile settings within the Systeme.io dashboard.",
+    "api_type": "REST",
+    "api_breadth": "Narrow (< 20 endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": "Not found in docs",
+    "evidence_urls": [
+      "https://developer.systeme.io/llms.txt"
+    ],
+    "sdk_languages": [
+      "None found"
+    ],
+    "rate_limits": "Varies by plan",
+    "has_webhooks": false,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 37,
+    "app_name": "systeme.io",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://developer.systeme.io"
+  },
+  {
+    "category": "Marketing, Ads, Email and Social",
+    "description": "Integrate with Pinterest to plan content, manage ads, and upload product feeds.",
+    "auth_methods": [
+      "Not found in docs"
+    ],
+    "self_serve": "Not found in docs",
+    "self_serve_detail": "Not found in docs",
+    "api_type": "REST",
+    "api_breadth": "Not found in docs",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": "None",
+    "evidence_urls": [
+      "developers.pinterest.com"
+    ],
+    "sdk_languages": [
+      "Not found in docs"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": false,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 38,
+    "app_name": "Pinterest",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://developers.pinterest.com"
+  },
+  {
+    "category": "Marketing, Ads, Email and Social",
+    "description": "Publish and manage posts, retrieve user profiles and analytics on Threads.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "self_serve": "Self-serve free",
+    "self_serve_detail": "Developers can create a Meta for Developers account and set up a Threads API app for free.",
+    "api_type": "REST",
+    "api_breadth": "Narrow (< 20 endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://developers.facebook.com/docs/threads"
+    ],
+    "sdk_languages": [
+      "None found"
+    ],
+    "rate_limits": "Varies by plan",
+    "has_webhooks": true,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 39,
+    "app_name": "Threads (Meta)",
+    "confidence": "LOW",
+    "docs_fetched": false,
+    "fetched_url": ""
+  },
+  {
+    "category": "Marketing, Ads, Email and Social",
+    "description": "Build transactional and marketing email solutions with Twilio SendGrid.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "self_serve": "Self-serve free",
+    "self_serve_detail": "Users can get started and send emails using open-source SDKs and API keys.",
+    "api_type": "REST",
+    "api_breadth": "Medium (20-100 endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": "Not found in docs",
+    "evidence_urls": [
+      "https://sendgrid.com/"
+    ],
+    "sdk_languages": [
+      "C#",
+      "Go",
+      "Java",
+      "Node.js",
+      "PHP",
+      "Python",
+      "Ruby"
+    ],
+    "rate_limits": "Not found in docs",
+    "has_webhooks": true,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 40,
+    "app_name": "SendGrid",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://docs.sendgrid.com"
+  },
+  {
+    "category": "Ecommerce",
+    "description": "Extend Shopify functionality with apps, themes, storefronts, and agentic shopping experiences.",
+    "auth_methods": [
+      "OAuth2",
+      "Session"
+    ],
+    "self_serve": "Self-serve free",
+    "self_serve_detail": "Developers can freely sign up and use the Shopify CLI and developer tools without upfront costs.",
+    "api_type": "GraphQL",
+    "api_breadth": "Broad (100+ endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": "Not found in docs",
+    "evidence_urls": [
+      "https://shopify.dev/"
+    ],
+    "sdk_languages": [
+      "JavaScript",
+      "Ruby",
+      "Python",
+      "PHP"
+    ],
+    "rate_limits": "Not found in docs",
+    "has_webhooks": true,
+    "has_sandbox": true,
+    "response_format": "JSON",
+    "app_id": 41,
+    "app_name": "Shopify",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://shopify.dev/docs"
+  },
+  {
+    "category": "Ecommerce",
+    "description": "An open-source e-commerce platform built on WordPress for online stores.",
+    "auth_methods": [
+      "Other",
+      "Basic Auth",
+      "OAuth2"
+    ],
+    "self_serve": "Open source / no auth needed",
+    "self_serve_detail": "WooCommerce is an open-source platform where users self-host and can access APIs directly without restricted external admin approval.",
+    "api_type": "REST",
+    "api_breadth": "Broad (100+ endpoints)",
+    "has_mcp": true,
+    "mcp_link": "https://woocommerce.com/document/woocommerce-rest-api",
+    "buildability": "Ready",
+    "main_blocker": "Not found in docs",
+    "evidence_urls": [
+      "https://woocommerce.com/document/woocommerce-rest-api"
+    ],
+    "sdk_languages": [
+      "None found"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": true,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 42,
+    "app_name": "WooCommerce",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://developer.woocommerce.com"
+  },
+  {
+    "category": "Ecommerce",
+    "description": "Manage products, orders, customers, and storefront experiences programmatically using APIs.",
+    "auth_methods": [
+      "API Key",
+      "Bearer Token"
+    ],
+    "self_serve": "Free trial then paid",
+    "self_serve_detail": "Sign up for a free BigCommerce trial store to test API calls and build integrations.",
+    "api_type": "combination",
+    "api_breadth": "Broad (100+ endpoints)",
+    "has_mcp": true,
+    "mcp_link": "https://developer.bigcommerce.com/docs/ai-agent-setup",
+    "buildability": "Ready",
+    "main_blocker": "Not found in docs",
+    "evidence_urls": [
+      "https://developer.bigcommerce.com/"
+    ],
+    "sdk_languages": [
+      "None found"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": true,
+    "has_sandbox": true,
+    "response_format": "JSON",
+    "app_id": 43,
+    "app_name": "BigCommerce",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://developer.bigcommerce.com"
+  },
+  {
+    "category": "Ecommerce",
+    "description": "Enterprise cloud commerce platform for B2C and B2B online shopping experiences.",
+    "auth_methods": [
+      "OAuth2",
+      "JWT"
+    ],
+    "self_serve": "Partner/contact-sales only",
+    "self_serve_detail": "Salesforce Commerce Cloud typically requires enterprise contracts and partner or sales enablement to provision developer and production environments.",
+    "api_type": "REST",
+    "api_breadth": "Broad (100+ endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://developer.salesforce.com/docs/commerce"
+    ],
+    "sdk_languages": [
+      "JavaScript",
+      "Java"
+    ],
+    "rate_limits": "Varies by plan",
+    "has_webhooks": true,
+    "has_sandbox": true,
+    "response_format": "JSON",
+    "app_id": 44,
+    "app_name": "Salesforce Commerce Cloud",
+    "confidence": "LOW",
+    "docs_fetched": false,
+    "fetched_url": ""
+  },
+  {
+    "category": "Ecommerce",
+    "description": "An extensible, API-first commerce platform for building multichannel B2B and B2C shopping experiences.",
+    "auth_methods": [
+      "Not found in docs"
+    ],
+    "self_serve": "Not found in docs",
+    "self_serve_detail": "Not found in docs",
+    "api_type": "combination",
+    "api_breadth": "Broad (100+ endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://developer.adobe.com/commerce"
+    ],
+    "sdk_languages": [
+      "Not found in docs"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": true,
+    "has_sandbox": true,
+    "response_format": "JSON",
+    "app_id": 45,
+    "app_name": "Magento (Adobe Commerce)",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://developer.adobe.com/commerce"
+  },
+  {
+    "category": "Ecommerce",
+    "description": "Build external apps, manage commerce, and integrate with Squarespace using APIs.",
+    "auth_methods": [
+      "Not found in docs"
+    ],
+    "self_serve": "Not found in docs",
+    "self_serve_detail": "Not found in the provided documentation text.",
+    "api_type": "REST",
+    "api_breadth": "Medium (20-100 endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": "None",
+    "evidence_urls": [
+      "developers.squarespace.com"
+    ],
+    "sdk_languages": [
+      "Not found"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": true,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 46,
+    "app_name": "Squarespace",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://developers.squarespace.com"
+  },
+  {
+    "category": "Ecommerce",
+    "description": "Ecwid ecommerce platform API allows developers to build apps, customize stores, and automate integrations.",
+    "auth_methods": [
+      "OAuth2",
+      "Other"
+    ],
+    "self_serve": "Self-serve free",
+    "self_serve_detail": "Developers can sign up and set up a dev environment to access the API with an app.",
+    "api_type": "REST",
+    "api_breadth": "Medium (20-100 endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": "Not found in docs",
+    "evidence_urls": [
+      "https://api-docs.ecwid.com/"
+    ],
+    "sdk_languages": [
+      "None found"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": true,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 47,
+    "app_name": "Ecwid",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://api-docs.ecwid.com"
+  },
+  {
+    "category": "Ecommerce",
+    "description": "Sell digital products, memberships, and courses directly to audiences.",
+    "auth_methods": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "self_serve": "Self-serve free",
+    "self_serve_detail": "Developers can create an account and generate access tokens or set up OAuth applications directly through the dashboard.",
+    "api_type": "REST",
+    "api_breadth": "Narrow (< 20 endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://app.gumroad.com/api"
+    ],
+    "sdk_languages": [
+      "None found"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": true,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 48,
+    "app_name": "Gumroad",
+    "confidence": "LOW",
+    "docs_fetched": false,
+    "fetched_url": ""
+  },
+  {
+    "category": "Ecommerce",
+    "description": "Integrates selling partners with Amazon to manage orders, inventory, listings, and fulfillment.",
+    "auth_methods": [
+      "OAuth2",
+      "Other"
+    ],
+    "self_serve": "Admin approval required",
+    "self_serve_detail": "Developer registration and authorization workflows require approval.",
+    "api_type": "REST",
+    "api_breadth": "Broad (100+ endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": "Not found in docs",
+    "evidence_urls": [
+      "https://developer-docs.amazon.com/sp-api"
+    ],
+    "sdk_languages": [
+      "C#",
+      "Java"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": true,
+    "has_sandbox": true,
+    "response_format": "JSON",
+    "app_id": 49,
+    "app_name": "Amazon Selling Partner",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://developer-docs.amazon.com/sp-api"
+  },
+  {
+    "category": "Ecommerce",
+    "description": "All-in-one platform to create, sell, and get paid with built-in checkouts, funnels, and APIs.",
+    "auth_methods": [
+      "Other"
+    ],
+    "self_serve": "Partner/contact-sales only",
+    "self_serve_detail": "No self-serve API documentation or keys are provided on the page; users must join a waitlist or contact sales.",
+    "api_type": "REST",
+    "api_breadth": "Narrow (< 20 endpoints)",
+    "has_mcp": true,
+    "mcp_link": null,
+    "buildability": "Not feasible",
+    "main_blocker": "No API documentation, endpoints, or credentials are provided in the content.",
+    "evidence_urls": [],
+    "sdk_languages": [
+      "None found"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": false,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 50,
+    "app_name": "fanbasis",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://developer.fanbasis.com"
+  },
+  {
+    "category": "Data, SEO and Scraping",
+    "description": "Provide SEO data, analysis pipelines, and automations via REST API.",
+    "auth_methods": [
+      "Other"
+    ],
+    "self_serve": "Free trial then paid",
+    "self_serve_detail": "The documentation mentions 'Free Unlimited Trial Info' and getting started via self-serve dashboard/playground.",
+    "api_type": "REST",
+    "api_breadth": "Broad (100+ endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": "Not found in docs",
+    "evidence_urls": [
+      "https://docs.dataforseo.com/"
+    ],
+    "sdk_languages": [
+      "PHP",
+      "C#",
+      "Java",
+      "Python",
+      "TypeScript"
+    ],
+    "rate_limits": "Varies by endpoint (indicated in X-RateLimit-Limit HTTP header per minute)",
+    "has_webhooks": true,
+    "has_sandbox": true,
+    "response_format": "combination",
+    "app_id": 51,
+    "app_name": "DataForSEO",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://docs.dataforseo.com"
+  },
+  {
+    "category": "Data, SEO and Scraping",
+    "description": "Comprehensive SEO and digital marketing platform providing tools for rank tracking and competitor analysis.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "self_serve": "Self-serve paid",
+    "self_serve_detail": "Users can access the API by subscribing to paid plans that include API access.",
+    "api_type": "REST",
+    "api_breadth": "Medium (20-100 endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://seranking.com/api"
+    ],
+    "sdk_languages": [
+      "None found"
+    ],
+    "rate_limits": "Varies by plan",
+    "has_webhooks": false,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 52,
+    "app_name": "SE Ranking",
+    "confidence": "LOW",
+    "docs_fetched": false,
+    "fetched_url": ""
+  },
+  {
+    "category": "Data, SEO and Scraping",
+    "description": "Access Ahrefs marketing and search data to build custom integrations and workflows.",
+    "auth_methods": [
+      "API Key",
+      "OAuth2"
+    ],
+    "self_serve": "Partner/contact-sales only",
+    "self_serve_detail": "Mention of Enterprise plan requirements and integration program application steps.",
+    "api_type": "REST",
+    "api_breadth": "Medium (20-100 endpoints)",
+    "has_mcp": true,
+    "mcp_link": "https://ahrefs.com/api",
+    "buildability": "Ready",
+    "main_blocker": "Not found in docs",
+    "evidence_urls": [
+      "https://ahrefs.com/api"
+    ],
+    "sdk_languages": [
+      "None found"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": false,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 53,
+    "app_name": "Ahrefs",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://ahrefs.com/api"
+  },
+  {
+    "category": "Data, SEO and Scraping",
+    "description": "AI-powered and manual web scraping platform to extract and automate website data extraction.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "self_serve": "Self-serve paid",
+    "self_serve_detail": "Users can sign up, understand subscription plans and token usage, and purchase tokens or subscriptions through billing.",
+    "api_type": "REST",
+    "api_breadth": "Medium (20-100 endpoints)",
+    "has_mcp": true,
+    "mcp_link": "https://github.com",
+    "buildability": "Ready",
+    "main_blocker": "None found in docs",
+    "evidence_urls": [
+      "https://docs.mrscraper.com"
+    ],
+    "sdk_languages": [
+      "Python",
+      "Node.js",
+      "Go",
+      "PHP"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": true,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 54,
+    "app_name": "MrScraper",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://docs.mrscraper.com"
+  },
+  {
+    "category": "Data, SEO and Scraping",
+    "description": "Cloud platform for web scraping, automation tools, and serverless microapps called Actors.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "self_serve": "Self-serve free",
+    "self_serve_detail": "Apify provides a platform with free starting options and self-serve capabilities.",
+    "api_type": "REST",
+    "api_breadth": "Broad (100+ endpoints)",
+    "has_mcp": true,
+    "mcp_link": "https://docs.apify.com",
+    "buildability": "Ready",
+    "main_blocker": "None found",
+    "evidence_urls": [
+      "https://docs.apify.com"
+    ],
+    "sdk_languages": [
+      "JavaScript",
+      "Python"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": true,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 55,
+    "app_name": "Apify",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://docs.apify.com"
+  },
+  {
+    "category": "Data, SEO and Scraping",
+    "description": "Turn any website into LLM-ready clean markdown or structured data via API.",
+    "auth_methods": [
+      "Bearer Token",
+      "API Key"
+    ],
+    "self_serve": "Self-serve free",
+    "self_serve_detail": "Create a free account for direct API access and higher limits, or get started without an account/API key for lower rate limits.",
+    "api_type": "REST",
+    "api_breadth": "Medium (20-100 endpoints)",
+    "has_mcp": true,
+    "mcp_link": "https://docs.firecrawl.dev/",
+    "buildability": "Ready",
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://docs.firecrawl.dev/"
+    ],
+    "sdk_languages": [
+      "Python",
+      "JavaScript"
+    ],
+    "rate_limits": "Varies by plan",
+    "has_webhooks": false,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 56,
+    "app_name": "Firecrawl",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://docs.firecrawl.dev"
+  },
+  {
+    "category": "Data, SEO and Scraping",
+    "description": "Scrape web data, buy ready-made datasets, and access proxy networks via API.",
+    "auth_methods": [
+      "Bearer Token",
+      "API Key"
+    ],
+    "self_serve": "Free trial then paid",
+    "self_serve_detail": "Provides 5,000 free credits per month with no credit card required.",
+    "api_type": "REST",
+    "api_breadth": "Medium (20-100 endpoints)",
+    "has_mcp": true,
+    "mcp_link": "https://mcp.brightdata.com/sse?token=YOUR_API_KEY",
+    "buildability": "Ready",
+    "main_blocker": null,
+    "evidence_urls": [
+      "https://docs.brightdata.com/"
+    ],
+    "sdk_languages": [
+      "Python",
+      "JavaScript"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": false,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 57,
+    "app_name": "Bright Data",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://docs.brightdata.com"
+  },
+  {
+    "category": "Data, SEO and Scraping",
+    "description": "Finds social media accounts across social networks by username.",
+    "auth_methods": [
+      "Open source / no auth needed"
+    ],
+    "self_serve": "Open source / no auth needed",
+    "self_serve_detail": "Sherlock is an open-source command-line tool available on GitHub with no authentication required.",
+    "api_type": "CLI / Python library",
+    "api_breadth": "Narrow (< 20 endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://github.com/sherlock-project/sherlock"
+    ],
+    "sdk_languages": [
+      "Python"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": false,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 58,
+    "app_name": "Sherlock",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://developer.github.com"
+  },
+  {
+    "category": "Data, SEO and Scraping",
+    "description": "B2B contact and company data enrichment, prospecting, and verification API.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "self_serve": "Not found in docs",
+    "self_serve_detail": "Not found in docs",
+    "api_type": "REST",
+    "api_breadth": "Narrow (< 20 endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://api.waterfall.io"
+    ],
+    "sdk_languages": [
+      "None found"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": true,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 59,
+    "app_name": "Waterfall.io",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://docs.waterfall.io"
+  },
+  {
+    "category": "Data, SEO and Scraping",
+    "description": "Programmatically search GTM data, run Clay logic, read tables, and manage audiences.",
+    "auth_methods": [
+      "Not found in docs"
+    ],
+    "self_serve": "Not found in docs",
+    "self_serve_detail": "Not found in docs",
+    "api_type": "REST",
+    "api_breadth": "Medium (20-100 endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://clay.com/docs"
+    ],
+    "sdk_languages": [
+      "None found"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": false,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 60,
+    "app_name": "Clay",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://developers.clay.com"
+  },
+  {
+    "category": "Developer, Infra and Data platforms",
+    "description": "Create integrations, retrieve data, and automate your workflows with the GitHub REST API.",
+    "auth_methods": [
+      "Bearer Token",
+      "OAuth2"
+    ],
+    "self_serve": "Self-serve free",
+    "self_serve_detail": "Not found in docs",
+    "api_type": "REST",
+    "api_breadth": "Broad (100+ endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://docs.github.com/rest"
+    ],
+    "sdk_languages": [
+      "Not found in docs"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": false,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 61,
+    "app_name": "GitHub",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://docs.github.com/rest"
+  },
+  {
+    "category": "Developer, Infra and Data platforms",
+    "description": "Interact programmatically with Vercel to deploy applications, manage domains, and control projects.",
+    "auth_methods": [
+      "Bearer Token"
+    ],
+    "self_serve": "Self-serve free",
+    "self_serve_detail": "Vercel accounts can be created for free and access tokens can be generated directly in account settings.",
+    "api_type": "REST",
+    "api_breadth": "Broad (100+ endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": "Not found in docs",
+    "evidence_urls": [
+      "https://vercel.com/docs/rest-api"
+    ],
+    "sdk_languages": [
+      "None found"
+    ],
+    "rate_limits": "Varies by plan (specified via response headers X-RateLimit-Limit, X-RateLimit-Remaining, and X-RateLimit-Reset)",
+    "has_webhooks": true,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 62,
+    "app_name": "Vercel",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://vercel.com/docs/rest-api"
+  },
+  {
+    "category": "Developer, Infra and Data platforms",
+    "description": "Manage atomic site deploys, form submissions, JavaScript snippets, and DNS configuration via REST API.",
+    "auth_methods": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "self_serve": "Self-serve free",
+    "self_serve_detail": "Users can sign up and generate personal access tokens or register OAuth applications directly through the Netlify UI.",
+    "api_type": "REST",
+    "api_breadth": "Broad (100+ endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": "Not found in docs",
+    "evidence_urls": [
+      "https://docs.netlify.com/api"
+    ],
+    "sdk_languages": [
+      "Go",
+      "JavaScript"
+    ],
+    "rate_limits": "500 requests per minute for most requests (stricter limits for deployments like 3/min and 100/day)",
+    "has_webhooks": false,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 63,
+    "app_name": "Netlify",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://docs.netlify.com/api"
+  },
+  {
+    "category": "Developer, Infra and Data platforms",
+    "description": "Manage Cloudflare accounts, zones, tokens, billing, and infrastructure via API.",
+    "auth_methods": [
+      "API Key",
+      "Bearer Token"
+    ],
+    "self_serve": "Self-serve free",
+    "self_serve_detail": "Cloudflare provides a self-serve platform where users can sign up for free accounts and access API tokens directly.",
+    "api_type": "REST",
+    "api_breadth": "Broad (100+ endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": "Not found in docs",
+    "evidence_urls": [
+      "https://developers.cloudflare.com/api"
+    ],
+    "sdk_languages": [
+      "TypeScript",
+      "Python",
+      "Go",
+      "Terraform"
+    ],
+    "rate_limits": "Not found in docs",
+    "has_webhooks": false,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 64,
+    "app_name": "Cloudflare",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://developers.cloudflare.com/api"
+  },
+  {
+    "category": "Developer, Infra and Data platforms",
+    "description": "Open source Firebase alternative providing Postgres database, auth, storage, and serverless functions.",
+    "auth_methods": [
+      "API Key",
+      "Bearer Token",
+      "JWT"
+    ],
+    "self_serve": "Self-serve free",
+    "self_serve_detail": "Supabase offers a self-serve free tier as well as paid tiers for projects.",
+    "api_type": "REST",
+    "api_breadth": "Broad (100+ endpoints)",
+    "has_mcp": true,
+    "mcp_link": "https://supabase.com/docs",
+    "buildability": "Ready",
+    "main_blocker": "Not found in docs",
+    "evidence_urls": [
+      "https://supabase.com/docs"
+    ],
+    "sdk_languages": [
+      "JavaScript",
+      "Flutter",
+      "Python",
+      "C#",
+      "Swift",
+      "Kotlin"
+    ],
+    "rate_limits": "Not found in docs",
+    "has_webhooks": true,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 65,
+    "app_name": "Supabase",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://supabase.com/docs"
+  },
+  {
+    "category": "Developer, Infra and Data platforms",
+    "description": "Graph database management system for storing and querying highly connected data.",
+    "auth_methods": [
+      "Basic Auth",
+      "Bearer Token"
+    ],
+    "self_serve": "Self-serve free",
+    "self_serve_detail": "Neo4j offers a free tier (Aura Free) and self-serve developer instances, alongside open-source self-hosted community editions.",
+    "api_type": "REST",
+    "api_breadth": "Medium (20-100 endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://neo4j.com/docs/api"
+    ],
+    "sdk_languages": [
+      "Python",
+      "JavaScript",
+      "Java",
+      "Go",
+      ".NET"
+    ],
+    "rate_limits": "Varies by plan",
+    "has_webhooks": true,
+    "has_sandbox": true,
+    "response_format": "JSON",
+    "app_id": 66,
+    "app_name": "Neo4j",
+    "confidence": "LOW",
+    "docs_fetched": false,
+    "fetched_url": ""
+  },
+  {
+    "category": "Developer, Infra and Data platforms",
+    "description": "Cloud-based data warehousing, data storage, and analytics platform for AI agents.",
+    "auth_methods": [
+      "Other"
+    ],
+    "self_serve": "Free trial then paid",
+    "self_serve_detail": "Snowflake offers a trial account option for first-time users before requiring a paid plan.",
+    "api_type": "REST",
+    "api_breadth": "Broad (100+ endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": null,
+    "evidence_urls": [
+      "docs.snowflake.com/en/.md"
+    ],
+    "sdk_languages": [
+      "Python",
+      "Java"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": false,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 67,
+    "app_name": "Snowflake",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://docs.snowflake.com"
+  },
+  {
+    "category": "Developer, Infra and Data platforms",
+    "description": "Manage MongoDB Atlas cloud database deployments and resources programmatically.",
+    "auth_methods": [
+      "API Key",
+      "Other"
+    ],
+    "self_serve": "Self-serve free",
+    "self_serve_detail": "Users can sign up for a free tier and access programmatic management tools.",
+    "api_type": "REST",
+    "api_breadth": "Broad (100+ endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": "Not found in docs",
+    "evidence_urls": [
+      "https://www.mongodb.com/docs/atlas/api"
+    ],
+    "sdk_languages": [
+      "Go",
+      "JavaScript",
+      "TypeScript",
+      "Python",
+      "Java",
+      "C#"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": false,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 68,
+    "app_name": "MongoDB Atlas",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://mongodb.com/docs/atlas/api"
+  },
+  {
+    "category": "Developer, Infra and Data platforms",
+    "description": "Cloud-scale monitoring and security platform for metrics, traces, logs, and systems.",
+    "auth_methods": [
+      "API Key",
+      "Bearer Token",
+      "OAuth2"
+    ],
+    "self_serve": "Free trial then paid",
+    "self_serve_detail": "Datadog provides self-serve signups with a trial period followed by paid tier options.",
+    "api_type": "REST",
+    "api_breadth": "Broad (100+ endpoints)",
+    "has_mcp": true,
+    "mcp_link": "https://docs.datadoghq.com/api/latest.md",
+    "buildability": "Ready",
+    "main_blocker": "None found",
+    "evidence_urls": [
+      "https://docs.datadoghq.com/api/latest.md",
+      "https://docs.datadoghq.com/api"
+    ],
+    "sdk_languages": [
+      "Python",
+      "JavaScript",
+      "Go",
+      "Ruby",
+      "Java"
+    ],
+    "rate_limits": "Varies by plan",
+    "has_webhooks": true,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 69,
+    "app_name": "Datadog",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://docs.datadoghq.com/api"
+  },
+  {
+    "category": "Developer, Infra and Data platforms",
+    "description": "Access the Sentry platform programmatically to manage resources and export data.",
+    "auth_methods": [
+      "Bearer Token",
+      "OAuth2"
+    ],
+    "self_serve": "Self-serve free",
+    "self_serve_detail": "Users can create authentication tokens and sign up for Sentry accounts self-serve.",
+    "api_type": "REST",
+    "api_breadth": "Broad (100+ endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://docs.sentry.io/api/"
+    ],
+    "sdk_languages": [
+      "None found"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": false,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 70,
+    "app_name": "Sentry",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://docs.sentry.io/api"
+  },
+  {
+    "category": "Productivity and Project Management",
+    "description": "Read, create, and update Notion workspace pages, databases, users, comments, and more.",
+    "auth_methods": [
+      "OAuth2",
+      "Bearer Token",
+      "API Key"
+    ],
+    "self_serve": "Self-serve free",
+    "self_serve_detail": "Developers can create internal connections, public connections, and personal access tokens directly through the developer portal.",
+    "api_type": "REST",
+    "api_breadth": "Medium (20-100 endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": "Not found in docs",
+    "evidence_urls": [
+      "https://developers.notion.com/"
+    ],
+    "sdk_languages": [
+      "JavaScript"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": true,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 71,
+    "app_name": "Notion",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://developers.notion.com"
+  },
+  {
+    "category": "Productivity and Project Management",
+    "description": "Cloud collaboration platform with structured field types, relational links, and built-in automations.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "self_serve": "Self-serve free",
+    "self_serve_detail": "Connects in one click via OAuth and provides self-serve CLI installation via npm.",
+    "api_type": "REST",
+    "api_breadth": "Medium (20-100 endpoints)",
+    "has_mcp": true,
+    "mcp_link": "https://airtable.com/developers",
+    "buildability": "Ready",
+    "main_blocker": "Not found in docs",
+    "evidence_urls": [
+      "https://airtable.com/developers"
+    ],
+    "sdk_languages": [
+      "JavaScript"
+    ],
+    "rate_limits": "Not found in docs",
+    "has_webhooks": false,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 72,
+    "app_name": "Airtable",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://airtable.com/developers"
+  },
+  {
+    "category": "Productivity and Project Management",
+    "description": "Streamlined issue tracking and project management tool for high-performing teams.",
+    "auth_methods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "self_serve": "Self-serve free",
+    "self_serve_detail": "Developers can immediately use personal API keys or set up OAuth 2.0 without contacting sales.",
+    "api_type": "GraphQL",
+    "api_breadth": "Broad (100+ endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://developers.linear.app"
+    ],
+    "sdk_languages": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": true,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 73,
+    "app_name": "Linear",
+    "confidence": "MEDIUM",
+    "docs_fetched": true,
+    "fetched_url": "https://developers.linear.app"
+  },
+  {
+    "category": "Productivity and Project Management",
+    "description": "Not found in docs",
+    "auth_methods": [],
+    "self_serve": "Not found in docs",
+    "self_serve_detail": "Not found in docs",
+    "api_type": "Not found in docs",
+    "api_breadth": "Not found in docs",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Not feasible",
+    "main_blocker": "Insufficient documentation content provided to analyze API capabilities, authentication, or endpoints.",
+    "evidence_urls": [],
+    "sdk_languages": [],
+    "rate_limits": "Not found in docs",
+    "has_webhooks": false,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 74,
+    "app_name": "Jira",
+    "confidence": "MEDIUM",
+    "docs_fetched": true,
+    "fetched_url": "https://developer.atlassian.com"
+  },
+  {
+    "category": "Productivity and Project Management",
+    "description": "Integrate tools, automate actions, and customize your workflows with Asana’s developer platform.",
+    "auth_methods": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "self_serve": "Self-serve free",
+    "self_serve_detail": "Developers can get started freely via the documentation and quick start guides.",
+    "api_type": "REST",
+    "api_breadth": "Broad (100+ endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://developers.asana.com"
+    ],
+    "sdk_languages": [
+      "None found"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": true,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 75,
+    "app_name": "Asana",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://developers.asana.com"
+  },
+  {
+    "category": "Productivity and Project Management",
+    "description": "An expressive GraphQL API to interact with workflows, automate processes, and power integrations.",
+    "auth_methods": [
+      "OAuth2",
+      "Other"
+    ],
+    "self_serve": "Self-serve free",
+    "self_serve_detail": "Open a developer account to get started with the developer platform.",
+    "api_type": "GraphQL",
+    "api_breadth": "Broad (100+ endpoints)",
+    "has_mcp": true,
+    "mcp_link": "developer.monday.com",
+    "buildability": "Ready",
+    "main_blocker": "None found",
+    "evidence_urls": [
+      "developer.monday.com"
+    ],
+    "sdk_languages": [
+      "JavaScript"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": true,
+    "has_sandbox": true,
+    "response_format": "JSON",
+    "app_id": 76,
+    "app_name": "Monday.com",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://developer.monday.com"
+  },
+  {
+    "category": "Productivity and Project Management",
+    "description": "Project management platform for tasks, docs, goals, and team collaboration.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "self_serve": "Self-serve free",
+    "self_serve_detail": "Public API specification and developer access are available directly through the developer portal.",
+    "api_type": "REST",
+    "api_breadth": "Broad (100+ endpoints)",
+    "has_mcp": true,
+    "mcp_link": "https://developer.clickup.com",
+    "buildability": "Ready",
+    "main_blocker": null,
+    "evidence_urls": [
+      "https://developer.clickup.com/api",
+      "https://developer.clickup.com/llms.txt"
+    ],
+    "sdk_languages": [
+      "None found"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": true,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 77,
+    "app_name": "ClickUp",
+    "confidence": "MEDIUM",
+    "docs_fetched": true,
+    "fetched_url": "https://clickup.com/api"
+  },
+  {
+    "category": "Productivity and Project Management",
+    "description": "Programmatically interact with data in Superhuman Docs documents, pages, tables, and rows.",
+    "auth_methods": [
+      "Bearer Token",
+      "API Key"
+    ],
+    "self_serve": "Self-serve free",
+    "self_serve_detail": "The Superhuman Docs API is made available to all users free of charge, in both free and paid workspaces.",
+    "api_type": "REST",
+    "api_breadth": "Medium (20-100 endpoints)",
+    "has_mcp": true,
+    "mcp_link": "https://superhuman.com/developers",
+    "buildability": "Ready",
+    "main_blocker": "Not found in docs",
+    "evidence_urls": [
+      "https://superhuman.com/developers"
+    ],
+    "sdk_languages": [
+      "None found"
+    ],
+    "rate_limits": "Varies by endpoint (e.g. 100 req per 6 sec for reading, 10 req per 6 sec for writing)",
+    "has_webhooks": false,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 78,
+    "app_name": "Coda",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://coda.io/developers"
+  },
+  {
+    "category": "Productivity and Project Management",
+    "description": "Collaborative work management platform with robust APIs for tracking projects and tasks.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "self_serve": "Self-serve free",
+    "self_serve_detail": "Developer tools registration allows applications to request user authorization, standard for developer access.",
+    "api_type": "REST",
+    "api_breadth": "Broad (100+ endpoints)",
+    "has_mcp": true,
+    "mcp_link": "smartsheet.com/developers",
+    "buildability": "Ready",
+    "main_blocker": "None",
+    "evidence_urls": [
+      "smartsheet.com/developers"
+    ],
+    "sdk_languages": [
+      "C#",
+      "Java",
+      "Node.js",
+      "Python"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": true,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 79,
+    "app_name": "Smartsheet",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://smartsheet.com/developers"
+  },
+  {
+    "category": "Productivity and Project Management",
+    "description": "Time tracking, expense tracking, and invoicing tool for project management.",
+    "auth_methods": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "self_serve": "Self-serve paid",
+    "self_serve_detail": "Harvest is a paid subscription service with standard accounts that can access API settings.",
+    "api_type": "REST",
+    "api_breadth": "Medium (20-100 endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://help.getharvest.com/api-v2"
+    ],
+    "sdk_languages": [
+      "None found"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": false,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 80,
+    "app_name": "Harvest",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://help.getharvest.com/api-v2"
+  },
+  {
+    "category": "Finance and Fintech",
+    "description": "Payment processing and financial infrastructure platform for online businesses.",
+    "auth_methods": [
+      "API Key",
+      "Basic Auth",
+      "Bearer Token"
+    ],
+    "self_serve": "Self-serve free",
+    "self_serve_detail": "Sign up for a Stripe account online for free and immediately access test mode API keys.",
+    "api_type": "REST",
+    "api_breadth": "Broad (100+ endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": "Not found in docs",
+    "evidence_urls": [
+      "https://stripe.com/docs/api"
+    ],
+    "sdk_languages": [
+      "Ruby",
+      "Python",
+      "PHP",
+      "Java",
+      "Node.js",
+      "Go",
+      ".NET"
+    ],
+    "rate_limits": "Not found in docs",
+    "has_webhooks": true,
+    "has_sandbox": true,
+    "response_format": "JSON",
+    "app_id": 81,
+    "app_name": "Stripe",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://stripe.com/docs/api"
+  },
+  {
+    "category": "Finance and Fintech",
+    "description": "Connect your users' bank accounts and financial data to your application.",
+    "auth_methods": [
+      "Other",
+      "API Key"
+    ],
+    "self_serve": "Self-serve free",
+    "self_serve_detail": "Not found in docs",
+    "api_type": "REST",
+    "api_breadth": "Broad (100+ endpoints)",
+    "has_mcp": true,
+    "mcp_link": "https://plaid.com/docs",
+    "buildability": "Ready",
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://plaid.com/docs"
+    ],
+    "sdk_languages": [
+      "Not found"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": false,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 82,
+    "app_name": "Plaid",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://plaid.com/docs"
+  },
+  {
+    "category": "Finance and Fintech",
+    "description": "Cryptocurrency exchange platform providing spot, futures, and margin trading APIs.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "self_serve": "Self-serve free",
+    "self_serve_detail": "Users can create an account and generate API keys instantly on the Binance platform without manual approval.",
+    "api_type": "REST and WebSocket",
+    "api_breadth": "Broad (100+ endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://binance-docs.github.io/apidocs/"
+    ],
+    "sdk_languages": [
+      "Python",
+      "JavaScript",
+      "Java",
+      "Go",
+      "C#"
+    ],
+    "rate_limits": "Varies by endpoint and request weight (e.g., 1200 requests per minute)",
+    "has_webhooks": true,
+    "has_sandbox": true,
+    "response_format": "JSON",
+    "app_id": 83,
+    "app_name": "Binance",
+    "confidence": "LOW",
+    "docs_fetched": false,
+    "fetched_url": ""
+  },
+  {
+    "category": "Finance and Fintech",
+    "description": "Not found in docs",
+    "auth_methods": [
+      "Other"
+    ],
+    "self_serve": "Not found in docs",
+    "self_serve_detail": "Not found in docs",
+    "api_type": "Not found in docs",
+    "api_breadth": "Not found in docs",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Not feasible",
+    "main_blocker": "The provided documentation is for an AI product and robotics company (Developer Co., Ltd.) rather than the 'Paygent Connect' API service.",
+    "evidence_urls": [],
+    "sdk_languages": [],
+    "rate_limits": "Not found in docs",
+    "has_webhooks": false,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 84,
+    "app_name": "Paygent Connect",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://developer.co.jp"
+  },
+  {
+    "category": "Finance and Fintech",
+    "description": "Neutral FX verification layer auditing foreign-exchange transactions against mid-market rates.",
+    "auth_methods": [
+      "Not found in docs"
+    ],
+    "self_serve": "Not found in docs",
+    "self_serve_detail": "No API access or self-serve documentation provided in the text.",
+    "api_type": "Not found in docs",
+    "api_breadth": "Not found in docs",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Not feasible",
+    "main_blocker": "No API documentation, endpoints, or technical integration guides provided in the text.",
+    "evidence_urls": [
+      "ipayx.ai/docs"
+    ],
+    "sdk_languages": [
+      "None found"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": false,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 85,
+    "app_name": "iPayX",
+    "confidence": "MEDIUM",
+    "docs_fetched": true,
+    "fetched_url": "https://ipayx.ai/docs"
+  },
+  {
+    "category": "Finance and Fintech",
+    "description": "Manage accounting, invoicing, payroll, and financial tracking for small businesses.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "self_serve": "Self-serve free",
+    "self_serve_detail": "Developers can sign up for a free developer account on the Intuit Developer portal and create sandbox apps immediately.",
+    "api_type": "REST",
+    "api_breadth": "Broad (100+ endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://developer.intuit.com"
+    ],
+    "sdk_languages": [
+      "Python",
+      "JavaScript",
+      "PHP",
+      "Ruby",
+      "Java",
+      ".NET"
+    ],
+    "rate_limits": "500 requests per minute per realm ID",
+    "has_webhooks": true,
+    "has_sandbox": true,
+    "response_format": "JSON",
+    "app_id": 86,
+    "app_name": "QuickBooks",
+    "confidence": "LOW",
+    "docs_fetched": false,
+    "fetched_url": ""
+  },
+  {
+    "category": "Finance and Fintech",
+    "description": "Cloud-based accounting software platform powering small business financial management and automation integrations.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "self_serve": "Self-serve free",
+    "self_serve_detail": "Sign up for a free account to build on the Xero platform and access developer tools.",
+    "api_type": "REST",
+    "api_breadth": "Broad (100+ endpoints)",
+    "has_mcp": true,
+    "mcp_link": "https://developer.xero.com",
+    "buildability": "Ready",
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://developer.xero.com"
+    ],
+    "sdk_languages": [
+      "Not found in docs"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": false,
+    "has_sandbox": true,
+    "response_format": "JSON",
+    "app_id": 87,
+    "app_name": "Xero",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://developer.xero.com"
+  },
+  {
+    "category": "Finance and Fintech",
+    "description": "A fully unified spend platform offering corporate cards, expense management, travel, and bill pay.",
+    "auth_methods": [
+      "Bearer Token"
+    ],
+    "self_serve": "Self-serve free",
+    "self_serve_detail": "Not found in docs",
+    "api_type": "REST",
+    "api_breadth": "Medium (20-100 endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": null,
+    "evidence_urls": [
+      "https://developer.brex.com"
+    ],
+    "sdk_languages": [
+      "None found"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": true,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 88,
+    "app_name": "Brex",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://developer.brex.com"
+  },
+  {
+    "category": "Finance and Fintech",
+    "description": "Corporate card, expense management, and financial operations platform API.",
+    "auth_methods": [
+      "Other"
+    ],
+    "self_serve": "Admin approval required",
+    "self_serve_detail": "Not found in docs",
+    "api_type": "REST",
+    "api_breadth": "Broad (100+ endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://docs.ramp.com/llms.txt",
+      "https://docs.ramp.com/openapi/developer-api.json"
+    ],
+    "sdk_languages": [
+      "None found"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": true,
+    "has_sandbox": true,
+    "response_format": "JSON",
+    "app_id": 89,
+    "app_name": "Ramp",
+    "confidence": "MEDIUM",
+    "docs_fetched": true,
+    "fetched_url": "https://docs.ramp.com"
+  },
+  {
+    "category": "Finance and Fintech",
+    "description": "Access private market data, venture capital, private equity, and M&A intelligence.",
+    "auth_methods": [
+      "API Key",
+      "OAuth2"
+    ],
+    "self_serve": "Partner/contact-sales only",
+    "self_serve_detail": "PitchBook API access requires contacting sales and entering into an enterprise subscription agreement.",
+    "api_type": "REST",
+    "api_breadth": "Broad (100+ endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Significant work",
+    "main_blocker": "Enterprise-only access, strict data redistribution terms, and lack of public developer documentation.",
+    "evidence_urls": [
+      "https://pitchbook.com"
+    ],
+    "sdk_languages": [
+      "None found"
+    ],
+    "rate_limits": "Varies by plan",
+    "has_webhooks": false,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 90,
+    "app_name": "PitchBook",
+    "confidence": "LOW",
+    "docs_fetched": false,
+    "fetched_url": ""
+  },
+  {
+    "category": "AI, Research and Media-native",
+    "description": "Integrate Gemini AI models for multimodal reasoning, codebases, and real-time agentic workflows.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "self_serve": "Self-serve free",
+    "self_serve_detail": "Provides self-serve access via Google for Developers with free tiers and API keys.",
+    "api_type": "REST",
+    "api_breadth": "Medium (20-100 endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": "Not found in docs",
+    "evidence_urls": [
+      "https://cloud.google.com/gemini"
+    ],
+    "sdk_languages": [
+      "Python",
+      "JavaScript",
+      "Go",
+      "Java"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": false,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 91,
+    "app_name": "NotebookLM",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://developer.google.com"
+  },
+  {
+    "category": "AI, Research and Media-native",
+    "description": "AI-powered meeting assistant that records, transcribes, and summarizes conversations.",
+    "auth_methods": [
+      "API Key",
+      "OAuth2"
+    ],
+    "self_serve": "Partner/contact-sales only",
+    "self_serve_detail": "Otter AI traditionally limits its API access to enterprise customers or partner integrations upon request.",
+    "api_type": "REST",
+    "api_breadth": "Narrow (< 20 endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Significant work",
+    "main_blocker": "Lack of publicly documented open API endpoints for general developer use.",
+    "evidence_urls": [
+      "https://help.otter.ai"
+    ],
+    "sdk_languages": [
+      "None found"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": false,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 92,
+    "app_name": "Otter AI",
+    "confidence": "LOW",
+    "docs_fetched": false,
+    "fetched_url": ""
+  },
+  {
+    "category": "AI, Research and Media-native",
+    "description": "Fathom summarizes meetings, records transcripts, and extracts action items using AI.",
+    "auth_methods": [],
+    "self_serve": "Not found in docs",
+    "self_serve_detail": "Not found in docs",
+    "api_type": "Not found in docs",
+    "api_breadth": "Not found in docs",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Not feasible",
+    "main_blocker": "No API documentation or technical specifications are present in the provided text.",
+    "evidence_urls": [
+      "fathom.video"
+    ],
+    "sdk_languages": [],
+    "rate_limits": "Not found in docs",
+    "has_webhooks": false,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 93,
+    "app_name": "Fathom",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://fathom.video"
+  },
+  {
+    "category": "AI, Research and Media-native",
+    "description": "AI-powered academic search engine finding insights directly from scientific research papers.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "self_serve": "Partner/contact-sales only",
+    "self_serve_detail": "Consensus API access typically requires contacting their sales or partnership team for enterprise access rather than automated self-serve signup.",
+    "api_type": "REST",
+    "api_breadth": "Narrow (< 20 endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Minor work",
+    "main_blocker": "Public documentation is minimal or gated, requiring custom API credentials and integration mapping.",
+    "evidence_urls": [
+      "https://consensus.app"
+    ],
+    "sdk_languages": [
+      "None found"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": false,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 94,
+    "app_name": "Consensus",
+    "confidence": "LOW",
+    "docs_fetched": false,
+    "fetched_url": ""
+  },
+  {
+    "category": "AI, Research and Media-native",
+    "description": "Agentic document platform for production-grade document processing, classification, extraction, and editing at scale.",
+    "auth_methods": [
+      "Other"
+    ],
+    "self_serve": "Self-serve paid",
+    "self_serve_detail": "Quickstart and API access are available directly, with SaaS and deployment options.",
+    "api_type": "REST",
+    "api_breadth": "Narrow (< 20 endpoints)",
+    "has_mcp": true,
+    "mcp_link": "https://reducto.ai",
+    "buildability": "Ready",
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://reducto.ai"
+    ],
+    "sdk_languages": [
+      "Python",
+      "Node.js",
+      "Go"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": false,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 95,
+    "app_name": "Reducto",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://docs.reducto.ai"
+  },
+  {
+    "category": "AI, Research and Media-native",
+    "description": "Autonomous AI software engineer that can write, run, and test code.",
+    "auth_methods": [
+      "Other"
+    ],
+    "self_serve": "Self-serve paid",
+    "self_serve_detail": "Individual and Teams plans are available for sign-up at app.devin.ai.",
+    "api_type": "REST",
+    "api_breadth": "Narrow (< 20 endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Minor work",
+    "main_blocker": "API documentation details and endpoints are not fully exposed in the provided text, requiring inspection of /llms.txt.",
+    "evidence_urls": [
+      "https://docs.devin.ai"
+    ],
+    "sdk_languages": [
+      "None found"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": false,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 96,
+    "app_name": "Devin",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://docs.devin.ai"
+  },
+  {
+    "category": "AI, Research and Media-native",
+    "description": "Unified integration point for generative media models supporting asynchronous requests and webhooks.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "self_serve": "Not found in docs",
+    "self_serve_detail": "Not found in docs",
+    "api_type": "REST",
+    "api_breadth": "Narrow (< 20 endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": "None",
+    "evidence_urls": [
+      "higgsfield.ai/cli"
+    ],
+    "sdk_languages": [
+      "Python",
+      "TypeScript"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": true,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 97,
+    "app_name": "higgsfield",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://docs.higgsfield.ai"
+  },
+  {
+    "category": "AI, Research and Media-native",
+    "description": "Command-line tool to render Mermaid diagrams to various formats.",
+    "auth_methods": [
+      "Other"
+    ],
+    "self_serve": "Open source / no auth needed",
+    "self_serve_detail": "It is an open-source CLI tool requiring no authentication or API keys.",
+    "api_type": "REST",
+    "api_breadth": "Narrow (< 20 endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": "None",
+    "evidence_urls": [
+      "github.com/mermaid-js/mermaid-cli"
+    ],
+    "sdk_languages": [
+      "JavaScript"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": false,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 98,
+    "app_name": "Mermaid CLI",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://developer.github.com"
+  },
+  {
+    "category": "AI, Research and Media-native",
+    "description": "Extract YouTube transcripts, search videos, browse channels, and extract playlists via REST API.",
+    "auth_methods": [
+      "Bearer Token"
+    ],
+    "self_serve": "Self-serve free",
+    "self_serve_detail": "The documentation mentions a 'Get Started Free' option and mentions credits per request.",
+    "api_type": "REST",
+    "api_breadth": "Narrow (< 20 endpoints)",
+    "has_mcp": true,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": "Not found in docs",
+    "evidence_urls": [
+      "https://transcriptapi.com/"
+    ],
+    "sdk_languages": [
+      "None found"
+    ],
+    "rate_limits": "Not documented",
+    "has_webhooks": false,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 99,
+    "app_name": "YouTube Transcript",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://transcriptapi.com"
+  },
+  {
+    "category": "AI, Research and Media-native",
+    "description": "API for accessing and managing meeting recordings, transcripts, and participants in Grain.",
+    "auth_methods": [
+      "OAuth2",
+      "API Key",
+      "Bearer Token"
+    ],
+    "self_serve": "Self-serve paid",
+    "self_serve_detail": "Tokens and OAuth apps can be generated directly via user settings/integrations.",
+    "api_type": "REST",
+    "api_breadth": "Narrow (< 20 endpoints)",
+    "has_mcp": false,
+    "mcp_link": null,
+    "buildability": "Ready",
+    "main_blocker": null,
+    "evidence_urls": [
+      "https://grain.com/app/settings/integrations?tab=api"
+    ],
+    "sdk_languages": [
+      "None found"
+    ],
+    "rate_limits": "300 req/min",
+    "has_webhooks": false,
+    "has_sandbox": false,
+    "response_format": "JSON",
+    "app_id": 100,
+    "app_name": "Grain",
+    "confidence": "HIGH",
+    "docs_fetched": true,
+    "fetched_url": "https://developers.grain.com"
+  }
+]

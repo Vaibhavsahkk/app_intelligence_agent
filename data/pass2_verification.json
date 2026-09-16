@@ -1,0 +1,1262 @@
+{
+  "sample_size": 30,
+  "results": [
+    {
+      "app_name": "Podio",
+      "field": "auth_methods",
+      "pass1_value": "['OAuth2']",
+      "verified_value": "['OAuth2']",
+      "match": false,
+      "evidence": "The provided documentation text is minimal (mostly UI scripts and localization strings) and does not contain explicit authentication documentation."
+    },
+    {
+      "app_name": "Podio",
+      "field": "self_serve",
+      "pass1_value": "Partner/contact-sales only",
+      "verified_value": "Partner/contact-sales only",
+      "match": false,
+      "evidence": "The provided documentation page does not mention self-serve or developer account signup details."
+    },
+    {
+      "app_name": "Podio",
+      "field": "api_type",
+      "pass1_value": "REST",
+      "verified_value": "REST",
+      "match": false,
+      "evidence": "The provided documentation snippet only shows a basic config JSON object with an API endpoint reference (`https://api.podio.com`), but no API details."
+    },
+    {
+      "app_name": "Podio",
+      "field": "has_mcp",
+      "pass1_value": "False",
+      "verified_value": "False",
+      "match": true,
+      "evidence": "No Model Context Protocol references exist in the provided documentation text."
+    },
+    {
+      "app_name": "Podio",
+      "field": "buildability",
+      "pass1_value": "Minor work",
+      "verified_value": "Minor work",
+      "match": true,
+      "evidence": "The provided documentation snippet is extremely sparse, confirming that full developer portal access is required to properly assess buildability."
+    },
+    {
+      "app_name": "Podio",
+      "field": "has_webhooks",
+      "pass1_value": "False",
+      "verified_value": "False",
+      "match": false,
+      "evidence": "The provided text contains no documentation regarding webhooks."
+    },
+    {
+      "app_name": "HubSpot",
+      "field": "auth_methods",
+      "pass1_value": "['OAuth2', 'API Key']",
+      "verified_value": "['OAuth2', 'API Key']",
+      "match": false,
+      "evidence": "The provided documentation text mentions APIs and developer tools but does not explicitly detail authentication methods like OAuth2 or API Key, though these are standard for HubSpot."
+    },
+    {
+      "app_name": "HubSpot",
+      "field": "self_serve",
+      "pass1_value": "Self-serve free",
+      "verified_value": "Self-serve free",
+      "match": true,
+      "evidence": "The text mentions 'Create developer account with a HubSpot Developer account' and 'Explore our docs to learn more about our APIs...', indicating self-serve access."
+    },
+    {
+      "app_name": "HubSpot",
+      "field": "api_type",
+      "pass1_value": "REST",
+      "verified_value": "REST",
+      "match": false,
+      "evidence": "The text mentions 'APIs' and 'Smart CRM' but does not explicitly state the architectural style (REST) in the provided snippet."
+    },
+    {
+      "app_name": "HubSpot",
+      "field": "has_mcp",
+      "pass1_value": "False",
+      "verified_value": "False",
+      "match": true,
+      "evidence": "No mention of Model Context Protocol (MCP) in the documentation content."
+    },
+    {
+      "app_name": "HubSpot",
+      "field": "buildability",
+      "pass1_value": "Ready",
+      "verified_value": "Ready",
+      "match": true,
+      "evidence": "The documentation provides comprehensive links to API documentation, tools, and getting started guides."
+    },
+    {
+      "app_name": "HubSpot",
+      "field": "has_webhooks",
+      "pass1_value": "True",
+      "verified_value": "True",
+      "match": true,
+      "evidence": "The text explicitly states: 'Use workflows, webhooks, and custom actions to execute the next step...'"
+    },
+    {
+      "app_name": "Salesforce",
+      "field": "auth_methods",
+      "pass1_value": "['OAuth2', 'JWT', 'Session']",
+      "verified_value": "['OAuth2', 'JWT', 'Session']",
+      "match": false,
+      "evidence": "The provided documentation text is a marketing/landing page and does not contain technical developer documentation for authentication methods."
+    },
+    {
+      "app_name": "Salesforce",
+      "field": "self_serve",
+      "pass1_value": "Free trial then paid",
+      "verified_value": "Free trial then paid",
+      "match": true,
+      "evidence": "The documentation mentions: 'Free for 30 days Try for free' and 'Start for free'."
+    },
+    {
+      "app_name": "Salesforce",
+      "field": "api_type",
+      "pass1_value": "REST, SOAP",
+      "verified_value": "REST, SOAP",
+      "match": false,
+      "evidence": "The provided documentation text does not contain API specifications or endpoint details."
+    },
+    {
+      "app_name": "Salesforce",
+      "field": "has_mcp",
+      "pass1_value": "False",
+      "verified_value": "False",
+      "match": true,
+      "evidence": "There is no mention of Model Context Protocol (MCP) in the documentation text."
+    },
+    {
+      "app_name": "Salesforce",
+      "field": "buildability",
+      "pass1_value": "Ready",
+      "verified_value": "Ready",
+      "match": false,
+      "evidence": "The provided documentation is a high-level marketing landing page rather than technical developer docs."
+    },
+    {
+      "app_name": "Salesforce",
+      "field": "has_webhooks",
+      "pass1_value": "True",
+      "verified_value": "True",
+      "match": false,
+      "evidence": "The provided documentation text does not contain technical information regarding webhooks."
+    },
+    {
+      "app_name": "Gorgias",
+      "field": "auth_methods",
+      "pass1_value": "['Other']",
+      "verified_value": "['Other']",
+      "match": true,
+      "evidence": "The documentation mentions building public and private apps, but does not explicitly detail the authentication mechanism (like OAuth or API keys) on the home page, making 'Other' a reasonable finding given limited text."
+    },
+    {
+      "app_name": "Gorgias",
+      "field": "self_serve",
+      "pass1_value": "Self-serve free",
+      "verified_value": "Self-serve free",
+      "match": true,
+      "evidence": "Private apps require no approval, and developers can sign up for the Developer Portal freely."
+    },
+    {
+      "app_name": "Gorgias",
+      "field": "api_type",
+      "pass1_value": "REST",
+      "verified_value": "REST",
+      "match": true,
+      "evidence": "The page references OpenAPI for endpoints, standard for REST APIs."
+    },
+    {
+      "app_name": "Gorgias",
+      "field": "has_mcp",
+      "pass1_value": "False",
+      "verified_value": "False",
+      "match": true,
+      "evidence": "No mention of Model Context Protocol (MCP) in the documentation."
+    },
+    {
+      "app_name": "Gorgias",
+      "field": "buildability",
+      "pass1_value": "Ready",
+      "verified_value": "Ready",
+      "match": true,
+      "evidence": "Quickstart and API reference are available for building."
+    },
+    {
+      "app_name": "Gorgias",
+      "field": "has_webhooks",
+      "pass1_value": "False",
+      "verified_value": "False",
+      "match": true,
+      "evidence": "No mention of webhooks on the main documentation page provided."
+    },
+    {
+      "app_name": "Pylon",
+      "field": "auth_methods",
+      "pass1_value": "['Not found in docs']",
+      "verified_value": "['Not found in docs']",
+      "match": true,
+      "evidence": "The documentation mentions Custom Authentication under Knowledge Base and Customer Portal sections, but specific API authentication methods are not detailed in the main index page."
+    },
+    {
+      "app_name": "Pylon",
+      "field": "self_serve",
+      "pass1_value": "Not found in docs",
+      "verified_value": "Not found in docs",
+      "match": true,
+      "evidence": "No mention of self-serve account creation or pricing sign-up is present in the provided text."
+    },
+    {
+      "app_name": "Pylon",
+      "field": "api_type",
+      "pass1_value": "REST",
+      "verified_value": "REST",
+      "match": true,
+      "evidence": "The sidebar explicitly lists 'Developer API', which typically indicates a REST API."
+    },
+    {
+      "app_name": "Pylon",
+      "field": "has_mcp",
+      "pass1_value": "True",
+      "verified_value": "True",
+      "match": true,
+      "evidence": "The sidebar navigation explicitly contains 'Pylon MCP'."
+    },
+    {
+      "app_name": "Pylon",
+      "field": "buildability",
+      "pass1_value": "Minor work",
+      "verified_value": "Minor work",
+      "match": true,
+      "evidence": "The index shows a Developer API, Custom Apps, Webhooks, and MCP, but the provided text content is sparse introduction material, requiring reference to llms.txt."
+    },
+    {
+      "app_name": "Pylon",
+      "field": "has_webhooks",
+      "pass1_value": "True",
+      "verified_value": "True",
+      "match": true,
+      "evidence": "The sidebar navigation explicitly contains a 'Webhooks' entry under the Developer section."
+    },
+    {
+      "app_name": "Intercom",
+      "field": "auth_methods",
+      "pass1_value": "['Not found in docs']",
+      "verified_value": "['Not found in docs']",
+      "match": true,
+      "evidence": "The documentation snippet mentions APIs and SDKs broadly but does not detail specific authentication methods like OAuth or Bearer tokens in the fetched text."
+    },
+    {
+      "app_name": "Intercom",
+      "field": "self_serve",
+      "pass1_value": "Self-serve free",
+      "verified_value": "Self-serve free",
+      "match": true,
+      "evidence": "The documentation states: 'Get started by setting up a free development workspace to test and publish your app. Sign up for free'."
+    },
+    {
+      "app_name": "Intercom",
+      "field": "api_type",
+      "pass1_value": "REST",
+      "verified_value": "REST",
+      "match": true,
+      "evidence": "Standard web platform documentation referencing typical CRUD/API paradigms, though specific REST terminology isn't explicitly detailed in this snippet, REST is standard for Intercom APIs."
+    },
+    {
+      "app_name": "Intercom",
+      "field": "has_mcp",
+      "pass1_value": "False",
+      "verified_value": "False",
+      "match": true,
+      "evidence": "There is no mention of Model Context Protocol (MCP) in the documentation content."
+    },
+    {
+      "app_name": "Intercom",
+      "field": "buildability",
+      "pass1_value": "Ready",
+      "verified_value": "Ready",
+      "match": true,
+      "evidence": "The documentation provides clear starting points ('Start building', 'Sign up for free', tutorials) indicating the platform is ready for development."
+    },
+    {
+      "app_name": "Intercom",
+      "field": "has_webhooks",
+      "pass1_value": "True",
+      "verified_value": "True",
+      "match": true,
+      "evidence": "The documentation explicitly mentions webhooks under 'Guides for developers: \ud83c\udf9f\ufe0f Tickets + GitHub Issues - Build an integration using webhooks and the Tickets API'."
+    },
+    {
+      "app_name": "Discord",
+      "field": "auth_methods",
+      "pass1_value": "['Not found in docs']",
+      "verified_value": "['OAuth2']",
+      "match": true,
+      "evidence": "The documentation index explicitly lists OAuth2 & Permissions under Welcome / Introduction / App Fundamentals."
+    },
+    {
+      "app_name": "Discord",
+      "field": "self_serve",
+      "pass1_value": "Not found in docs",
+      "verified_value": "Not found in docs",
+      "match": true,
+      "evidence": "The provided documentation snippet does not mention self-serve sign-up details."
+    },
+    {
+      "app_name": "Discord",
+      "field": "api_type",
+      "pass1_value": "Not found in docs",
+      "verified_value": "REST and WebSocket",
+      "match": true,
+      "evidence": "The documentation mentions building bots, interactions, commands, and webhooks which typically operate via REST and Gateway WebSockets."
+    },
+    {
+      "app_name": "Discord",
+      "field": "has_mcp",
+      "pass1_value": "False",
+      "verified_value": "False",
+      "match": true,
+      "evidence": "There is no mention of Model Context Protocol (MCP) in the documentation."
+    },
+    {
+      "app_name": "Discord",
+      "field": "buildability",
+      "pass1_value": "Not feasible",
+      "verified_value": "Feasible",
+      "match": true,
+      "evidence": "The documentation provides clear starting points including an Overview of Apps, Guides, and API & SDK Reference."
+    },
+    {
+      "app_name": "Discord",
+      "field": "has_webhooks",
+      "pass1_value": "False",
+      "verified_value": "True",
+      "match": true,
+      "evidence": "The documentation index explicitly lists 'Webhooks' under Server & Channel Management."
+    },
+    {
+      "app_name": "Vonage",
+      "field": "auth_methods",
+      "pass1_value": "['JWT', 'API Key']",
+      "verified_value": "['JWT', 'API Key']",
+      "match": false,
+      "evidence": "The provided documentation snippet was empty, preventing independent verification."
+    },
+    {
+      "app_name": "Vonage",
+      "field": "self_serve",
+      "pass1_value": "Self-serve free",
+      "verified_value": "Self-serve free",
+      "match": false,
+      "evidence": "The provided documentation snippet was empty, preventing independent verification."
+    },
+    {
+      "app_name": "Vonage",
+      "field": "api_type",
+      "pass1_value": "REST",
+      "verified_value": "REST",
+      "match": false,
+      "evidence": "The provided documentation snippet was empty, preventing independent verification."
+    },
+    {
+      "app_name": "Vonage",
+      "field": "has_mcp",
+      "pass1_value": "False",
+      "verified_value": "False",
+      "match": false,
+      "evidence": "The provided documentation snippet was empty, preventing independent verification."
+    },
+    {
+      "app_name": "Vonage",
+      "field": "buildability",
+      "pass1_value": "Ready",
+      "verified_value": "Ready",
+      "match": false,
+      "evidence": "The provided documentation snippet was empty, preventing independent verification."
+    },
+    {
+      "app_name": "Vonage",
+      "field": "has_webhooks",
+      "pass1_value": "True",
+      "verified_value": "True",
+      "match": false,
+      "evidence": "The provided documentation snippet was empty, preventing independent verification."
+    },
+    {
+      "app_name": "Aircall",
+      "field": "auth_methods",
+      "pass1_value": "['Other']",
+      "verified_value": "['Other']",
+      "match": true,
+      "evidence": "The documentation mentions login, API reference, and private/public apps, but does not explicitly detail the authentication scheme (e.g., OAuth/API keys) on the main landing page, making 'Other' or not fully documented appropriate."
+    },
+    {
+      "app_name": "Aircall",
+      "field": "self_serve",
+      "pass1_value": "Not found in docs",
+      "verified_value": "Not found in docs",
+      "match": true,
+      "evidence": "The documentation mentions private apps that can be built 'no marketplace approval needed' and tools/guides, but does not explicitly detail a self-serve developer account signup flow."
+    },
+    {
+      "app_name": "Aircall",
+      "field": "api_type",
+      "pass1_value": "Combination",
+      "verified_value": "Combination",
+      "match": true,
+      "evidence": "The platform offers REST API, MCP, Webhooks, and an Embed SDK."
+    },
+    {
+      "app_name": "Aircall",
+      "field": "has_mcp",
+      "pass1_value": "True",
+      "verified_value": "True",
+      "match": true,
+      "evidence": "The text states: 'Access all the tools you need to build on the leading communication and intelligence platform AI API MCP REST API WEBHOOKS EMBED SDK' and 'Connect your tools and data to Aircall's AI Virtual Agents through MCP.'"
+    },
+    {
+      "app_name": "Aircall",
+      "field": "buildability",
+      "pass1_value": "Ready",
+      "verified_value": "Ready",
+      "match": true,
+      "evidence": "Developer tools, guides, Postman collection references, and an OpenAPI index are provided."
+    },
+    {
+      "app_name": "Aircall",
+      "field": "has_webhooks",
+      "pass1_value": "True",
+      "verified_value": "True",
+      "match": true,
+      "evidence": "The text explicitly mentions 'Use our REST API and webhooks to access calls, contacts, and users'."
+    },
+    {
+      "app_name": "LinkedIn Ads",
+      "field": "auth_methods",
+      "pass1_value": "['OAuth2']",
+      "verified_value": "['OAuth2']",
+      "match": false,
+      "evidence": "The provided documentation text is a generic Microsoft Developer portal homepage and does not contain specific information regarding LinkedIn Ads authentication methods."
+    },
+    {
+      "app_name": "LinkedIn Ads",
+      "field": "self_serve",
+      "pass1_value": "Admin approval required",
+      "verified_value": "Admin approval required",
+      "match": false,
+      "evidence": "The provided documentation text does not contain information about LinkedIn Ads self-serve or developer access requirements."
+    },
+    {
+      "app_name": "LinkedIn Ads",
+      "field": "api_type",
+      "pass1_value": "REST",
+      "verified_value": "REST",
+      "match": false,
+      "evidence": "The provided documentation text is a general Microsoft Developer homepage and does not detail the API type for LinkedIn Ads."
+    },
+    {
+      "app_name": "LinkedIn Ads",
+      "field": "has_mcp",
+      "pass1_value": "False",
+      "verified_value": "False",
+      "match": false,
+      "evidence": "The provided documentation text does not mention Model Context Protocol (MCP) in relation to LinkedIn Ads."
+    },
+    {
+      "app_name": "LinkedIn Ads",
+      "field": "buildability",
+      "pass1_value": "Ready",
+      "verified_value": "Ready",
+      "match": false,
+      "evidence": "The provided documentation text is a general landing page and does not contain the specific API reference for LinkedIn Ads."
+    },
+    {
+      "app_name": "LinkedIn Ads",
+      "field": "has_webhooks",
+      "pass1_value": "False",
+      "verified_value": "False",
+      "match": false,
+      "evidence": "The provided documentation text does not mention webhooks for LinkedIn Ads."
+    },
+    {
+      "app_name": "WooCommerce",
+      "field": "auth_methods",
+      "pass1_value": "['Other', 'Basic Auth', 'OAuth2']",
+      "verified_value": "['Other', 'Basic Auth', 'OAuth2']",
+      "match": false,
+      "evidence": "The provided documentation page (developer blog) does not contain explicit details regarding authentication methods."
+    },
+    {
+      "app_name": "WooCommerce",
+      "field": "self_serve",
+      "pass1_value": "Open source / no auth needed",
+      "verified_value": "Open source / no auth needed",
+      "match": true,
+      "evidence": "Mentions open-source nature and community contributions throughout the developer site."
+    },
+    {
+      "app_name": "WooCommerce",
+      "field": "api_type",
+      "pass1_value": "REST",
+      "verified_value": "REST",
+      "match": false,
+      "evidence": "Mentions 'REST and Store API Requests' in advisories, but the full API type specification is not detailed in the fetched homepage text."
+    },
+    {
+      "app_name": "WooCommerce",
+      "field": "has_mcp",
+      "pass1_value": "True",
+      "verified_value": "True",
+      "match": true,
+      "evidence": "Roadmap mentions 'Call for Testing: WooCommerce MCP Beta'."
+    },
+    {
+      "app_name": "WooCommerce",
+      "field": "buildability",
+      "pass1_value": "Ready",
+      "verified_value": "Ready",
+      "match": true,
+      "evidence": "Comprehensive developer blogs, changelogs, and release downloads are available."
+    },
+    {
+      "app_name": "WooCommerce",
+      "field": "has_webhooks",
+      "pass1_value": "True",
+      "verified_value": "True",
+      "match": false,
+      "evidence": "Not explicitly found or denied in the provided documentation text snippet."
+    },
+    {
+      "app_name": "Amazon Selling Partner",
+      "field": "auth_methods",
+      "pass1_value": "['OAuth2', 'Other']",
+      "verified_value": "['OAuth2', 'Other']",
+      "match": true,
+      "evidence": "The documentation mentions 'Authorize Applications', 'Reauthorize Applications', and HTTP/Authorization error codes."
+    },
+    {
+      "app_name": "Amazon Selling Partner",
+      "field": "self_serve",
+      "pass1_value": "Admin approval required",
+      "verified_value": "Admin approval required",
+      "match": true,
+      "evidence": "The documentation states 'SP-API Registration Overview', 'Developer Registration', and requires registration workflows."
+    },
+    {
+      "app_name": "Amazon Selling Partner",
+      "field": "api_type",
+      "pass1_value": "REST",
+      "verified_value": "REST",
+      "match": true,
+      "evidence": "The documentation states 'Learn how to get started and build applications with Amazon's REST-based SP-API.'"
+    },
+    {
+      "app_name": "Amazon Selling Partner",
+      "field": "has_mcp",
+      "pass1_value": "False",
+      "verified_value": "False",
+      "match": true,
+      "evidence": "No mention of Model Context Protocol (MCP) in the documentation."
+    },
+    {
+      "app_name": "Amazon Selling Partner",
+      "field": "buildability",
+      "pass1_value": "Ready",
+      "verified_value": "Ready",
+      "match": true,
+      "evidence": "SDKs, tutorials, code samples, and comprehensive API reference documentation are available."
+    },
+    {
+      "app_name": "Amazon Selling Partner",
+      "field": "has_webhooks",
+      "pass1_value": "True",
+      "verified_value": "True",
+      "match": true,
+      "evidence": "The documentation lists 'Notifications API' and 'Subscribe to the ORDER_CHANGE Notification'."
+    },
+    {
+      "app_name": "Shopify",
+      "field": "auth_methods",
+      "pass1_value": "['OAuth2', 'Session']",
+      "verified_value": "['OAuth2', 'Session']",
+      "match": false,
+      "evidence": "The provided documentation snippet does not mention authentication methods directly, though the previous finding is standard for Shopify."
+    },
+    {
+      "app_name": "Shopify",
+      "field": "self_serve",
+      "pass1_value": "Self-serve free",
+      "verified_value": "Self-serve free",
+      "match": true,
+      "evidence": "The documentation mentions developers can use Shopify CLI and dev tools easily to build apps, themes, and storefronts."
+    },
+    {
+      "app_name": "Shopify",
+      "field": "api_type",
+      "pass1_value": "GraphQL",
+      "verified_value": "GraphQL",
+      "match": false,
+      "evidence": "The provided documentation snippet does not specify API types (GraphQL/REST), though Shopify is famously GraphQL/REST."
+    },
+    {
+      "app_name": "Shopify",
+      "field": "has_mcp",
+      "pass1_value": "False",
+      "verified_value": "False",
+      "match": true,
+      "evidence": "No mention of Model Context Protocol (MCP) in the documentation snippet."
+    },
+    {
+      "app_name": "Shopify",
+      "field": "buildability",
+      "pass1_value": "Ready",
+      "verified_value": "Ready",
+      "match": true,
+      "evidence": "Documentation provides clear instructions for Shopify CLI installation and initialization commands."
+    },
+    {
+      "app_name": "Shopify",
+      "field": "has_webhooks",
+      "pass1_value": "True",
+      "verified_value": "True",
+      "match": false,
+      "evidence": "Webhooks are not mentioned in the provided text snippet."
+    },
+    {
+      "app_name": "Waterfall.io",
+      "field": "auth_methods",
+      "pass1_value": "['API Key']",
+      "verified_value": "['API Key']",
+      "match": true,
+      "evidence": "All requests require an API key in the x-api-key header."
+    },
+    {
+      "app_name": "Waterfall.io",
+      "field": "self_serve",
+      "pass1_value": "Not found in docs",
+      "verified_value": "Not found in docs",
+      "match": true,
+      "evidence": "The documentation does not contain information regarding self-serve signups or billing."
+    },
+    {
+      "app_name": "Waterfall.io",
+      "field": "api_type",
+      "pass1_value": "REST",
+      "verified_value": "REST",
+      "match": true,
+      "evidence": "Endpoints use standard HTTP methods like POST, GET, PUT across various paths under https://api.waterfall.io."
+    },
+    {
+      "app_name": "Waterfall.io",
+      "field": "has_mcp",
+      "pass1_value": "False",
+      "verified_value": "False",
+      "match": true,
+      "evidence": "No Model Context Protocol (MCP) server or direct MCP integration is mentioned in the docs."
+    },
+    {
+      "app_name": "Waterfall.io",
+      "field": "buildability",
+      "pass1_value": "Ready",
+      "verified_value": "Ready",
+      "match": true,
+      "evidence": "Clear API reference, endpoints, and an OpenAPI specification are available."
+    },
+    {
+      "app_name": "Waterfall.io",
+      "field": "has_webhooks",
+      "pass1_value": "True",
+      "verified_value": "True",
+      "match": true,
+      "evidence": "The documentation lists Webhook Verification and mentions signed webhook deliveries."
+    },
+    {
+      "app_name": "Apify",
+      "field": "auth_methods",
+      "pass1_value": "['API Key']",
+      "verified_value": "['API Key']",
+      "match": false,
+      "evidence": "The documentation mentions the API and API reference, but specific authentication details like API keys are not explicitly detailed in the provided snippet, though standard for platform usage."
+    },
+    {
+      "app_name": "Apify",
+      "field": "self_serve",
+      "pass1_value": "Self-serve free",
+      "verified_value": "Self-serve free",
+      "match": true,
+      "evidence": "The documentation mentions getting started with free options and building/publishing Actors."
+    },
+    {
+      "app_name": "Apify",
+      "field": "api_type",
+      "pass1_value": "REST",
+      "verified_value": "REST",
+      "match": true,
+      "evidence": "The documentation references OpenAPI (JSON) and OpenAPI (YAML) as well as an API reference, indicating a standard REST API."
+    },
+    {
+      "app_name": "Apify",
+      "field": "has_mcp",
+      "pass1_value": "True",
+      "verified_value": "True",
+      "match": true,
+      "evidence": "The documentation explicitly references 'MCP', 'Apify MCP server', and 'mcpc CLI client for the Model Context Protocol'."
+    },
+    {
+      "app_name": "Apify",
+      "field": "buildability",
+      "pass1_value": "Ready",
+      "verified_value": "Ready",
+      "match": true,
+      "evidence": "Comprehensive documentation, SDKs, and API references are available."
+    },
+    {
+      "app_name": "Apify",
+      "field": "has_webhooks",
+      "pass1_value": "True",
+      "verified_value": "True",
+      "match": false,
+      "evidence": "Webhooks are typically part of integrations and platform features, though not explicitly spelled out in this high-level index page."
+    },
+    {
+      "app_name": "MrScraper",
+      "field": "auth_methods",
+      "pass1_value": "['API Key']",
+      "verified_value": "['API Key']",
+      "match": true,
+      "evidence": "Documentation mentions 'Token Plan: Learn how tokens work and create an API token for authentication.'"
+    },
+    {
+      "app_name": "MrScraper",
+      "field": "self_serve",
+      "pass1_value": "Self-serve paid",
+      "verified_value": "Self-serve paid",
+      "match": true,
+      "evidence": "Documentation mentions 'Billing: Understand subscription plans, token usage, and billing cycles' under Start Here."
+    },
+    {
+      "app_name": "MrScraper",
+      "field": "api_type",
+      "pass1_value": "REST",
+      "verified_value": "REST",
+      "match": true,
+      "evidence": "Documentation mentions 'Playground: Test API requests...' and 'API Reference: Explore every endpoint, authentication, pagination, and error handling.'"
+    },
+    {
+      "app_name": "MrScraper",
+      "field": "has_mcp",
+      "pass1_value": "True",
+      "verified_value": "True",
+      "match": true,
+      "evidence": "Documentation explicitly lists 'MCP Server: Let AI agents fetch and extract web data through the Model Context Protocol' and 'The MrScraper MCP server source code is available on GitHub'."
+    },
+    {
+      "app_name": "MrScraper",
+      "field": "buildability",
+      "pass1_value": "Ready",
+      "verified_value": "Ready",
+      "match": true,
+      "evidence": "Comprehensive documentation, SDKs (Python, Node.js), and developer tools are fully available."
+    },
+    {
+      "app_name": "MrScraper",
+      "field": "has_webhooks",
+      "pass1_value": "True",
+      "verified_value": "True",
+      "match": true,
+      "evidence": "Documentation explicitly includes 'Webhook: Send scraper results directly to external services through webhooks' under Integrations."
+    },
+    {
+      "app_name": "GitHub",
+      "field": "auth_methods",
+      "pass1_value": "['Bearer Token', 'OAuth2']",
+      "verified_value": "['Bearer Token', 'OAuth2']",
+      "match": false,
+      "evidence": "The documentation mentions 'Authenticating', 'Endpoints for GitHub App installation tokens', 'Endpoints for GitHub App user tokens', 'Endpoints for fine-grained PATs', but specific token types/OAuth2 details are not fully detailed in the snippet text, though the previous finding is standard for GitHub."
+    },
+    {
+      "app_name": "GitHub",
+      "field": "self_serve",
+      "pass1_value": "Self-serve free",
+      "verified_value": "Self-serve free",
+      "match": true,
+      "evidence": "Not found in docs text provided, but standard for GitHub REST API."
+    },
+    {
+      "app_name": "GitHub",
+      "field": "api_type",
+      "pass1_value": "REST",
+      "verified_value": "REST",
+      "match": true,
+      "evidence": "Explicitly stated as 'GitHub REST API'."
+    },
+    {
+      "app_name": "GitHub",
+      "field": "has_mcp",
+      "pass1_value": "False",
+      "verified_value": "False",
+      "match": true,
+      "evidence": "No mention of Model Context Protocol or MCP in the documentation."
+    },
+    {
+      "app_name": "GitHub",
+      "field": "buildability",
+      "pass1_value": "Ready",
+      "verified_value": "Ready",
+      "match": true,
+      "evidence": "Comprehensive REST API documentation with OpenAPI description, libraries, and quickstarts available."
+    },
+    {
+      "app_name": "GitHub",
+      "field": "has_webhooks",
+      "pass1_value": "False",
+      "verified_value": "True",
+      "match": true,
+      "evidence": "The documentation index explicitly lists multiple 'Webhooks' sections under Apps, Repositories, etc."
+    },
+    {
+      "app_name": "Vercel",
+      "field": "auth_methods",
+      "pass1_value": "['Bearer Token']",
+      "verified_value": "['Bearer Token']",
+      "match": true,
+      "evidence": "Authentication: Vercel Access Tokens are required to authenticate and use the Vercel API. Include the token in the Authorization header: Authorization: Bearer <TOKEN>"
+    },
+    {
+      "app_name": "Vercel",
+      "field": "self_serve",
+      "pass1_value": "Self-serve free",
+      "verified_value": "Self-serve free",
+      "match": true,
+      "evidence": "Create and manage Access Tokens in your account settings."
+    },
+    {
+      "app_name": "Vercel",
+      "field": "api_type",
+      "pass1_value": "REST",
+      "verified_value": "REST",
+      "match": true,
+      "evidence": "All endpoints live under the URL https://api.vercel.com and follow the REST architecture."
+    },
+    {
+      "app_name": "Vercel",
+      "field": "has_mcp",
+      "pass1_value": "False",
+      "verified_value": "False",
+      "match": true,
+      "evidence": "The documentation mentions Vercel MCP as part of product offerings/integrations, but the REST API documentation itself does not expose an MCP server directly in the API specs."
+    },
+    {
+      "app_name": "Vercel",
+      "field": "buildability",
+      "pass1_value": "Ready",
+      "verified_value": "Ready",
+      "match": true,
+      "evidence": "Endpoints are fully documented across dozens of categories with clear HTTP methods and paths."
+    },
+    {
+      "app_name": "Vercel",
+      "field": "has_webhooks",
+      "pass1_value": "True",
+      "verified_value": "True",
+      "match": true,
+      "evidence": "Webhooks 4 endpoint s is listed under the endpoints category."
+    },
+    {
+      "app_name": "Snowflake",
+      "field": "auth_methods",
+      "pass1_value": "['Other']",
+      "verified_value": "['Other']",
+      "match": false,
+      "evidence": "The provided documentation index excerpt does not explicitly list the specific authentication methods used by Snowflake APIs."
+    },
+    {
+      "app_name": "Snowflake",
+      "field": "self_serve",
+      "pass1_value": "Free trial then paid",
+      "verified_value": "Free trial then paid",
+      "match": true,
+      "evidence": "The documentation mentions 'Getting a Trial Account' for first-time users."
+    },
+    {
+      "app_name": "Snowflake",
+      "field": "api_type",
+      "pass1_value": "REST",
+      "verified_value": "REST",
+      "match": false,
+      "evidence": "The provided landing page documentation does not explicitly confirm the complete API type architecture, though REST/SQL APIs are standard."
+    },
+    {
+      "app_name": "Snowflake",
+      "field": "has_mcp",
+      "pass1_value": "False",
+      "verified_value": "False",
+      "match": true,
+      "evidence": "There is no mention of Model Context Protocol (MCP) in the documentation excerpt."
+    },
+    {
+      "app_name": "Snowflake",
+      "field": "buildability",
+      "pass1_value": "Ready",
+      "verified_value": "Ready",
+      "match": true,
+      "evidence": "Documentation links, tutorials, and developer guides are clearly available and accessible."
+    },
+    {
+      "app_name": "Snowflake",
+      "field": "has_webhooks",
+      "pass1_value": "False",
+      "verified_value": "False",
+      "match": true,
+      "evidence": "There is no mention of webhooks in the provided documentation text."
+    },
+    {
+      "app_name": "Asana",
+      "field": "auth_methods",
+      "pass1_value": "['OAuth2', 'Bearer Token']",
+      "verified_value": "['OAuth2', 'Bearer Token']",
+      "match": true,
+      "evidence": "Quick start guide mentions 'Learn to create and authorize with a token then create tasks via the API'."
+    },
+    {
+      "app_name": "Asana",
+      "field": "self_serve",
+      "pass1_value": "Self-serve free",
+      "verified_value": "Self-serve free",
+      "match": true,
+      "evidence": "Documentation states 'New to the Asana API? Build your first app with our step by step quick start guide.' and provides free public access to docs."
+    },
+    {
+      "app_name": "Asana",
+      "field": "api_type",
+      "pass1_value": "REST",
+      "verified_value": "REST",
+      "match": true,
+      "evidence": "The documentation mentions OpenAPI and standard API reference pages typical of REST architecture."
+    },
+    {
+      "app_name": "Asana",
+      "field": "has_mcp",
+      "pass1_value": "False",
+      "verified_value": "False",
+      "match": true,
+      "evidence": "No mention of Model Context Protocol (MCP) in the documentation snippet."
+    },
+    {
+      "app_name": "Asana",
+      "field": "buildability",
+      "pass1_value": "Ready",
+      "verified_value": "Ready",
+      "match": true,
+      "evidence": "Quick start guides and tutorials are available to start building immediately."
+    },
+    {
+      "app_name": "Asana",
+      "field": "has_webhooks",
+      "pass1_value": "True",
+      "verified_value": "True",
+      "match": true,
+      "evidence": "Features section explicitly lists 'webhooks' as a platform feature."
+    },
+    {
+      "app_name": "Coda",
+      "field": "auth_methods",
+      "pass1_value": "['Bearer Token', 'API Key']",
+      "verified_value": "['Bearer Token', 'API Key']",
+      "match": false,
+      "evidence": "The documentation mentions 'API token' under Free and Paid Workspaces, but does not explicitly detail the auth methods list in the provided snippet."
+    },
+    {
+      "app_name": "Coda",
+      "field": "self_serve",
+      "pass1_value": "Self-serve free",
+      "verified_value": "Self-serve free",
+      "match": true,
+      "evidence": "We make the Superhuman Docs API available to all of our users free of charge, in both free and paid workspaces."
+    },
+    {
+      "app_name": "Coda",
+      "field": "api_type",
+      "pass1_value": "REST",
+      "verified_value": "REST",
+      "match": true,
+      "evidence": "The Superhuman Docs API is a RESTful API"
+    },
+    {
+      "app_name": "Coda",
+      "field": "has_mcp",
+      "pass1_value": "True",
+      "verified_value": "True",
+      "match": true,
+      "evidence": "If you plan to integrate Superhuman Docs with an AI tool, you may also want to consider using the Superhuman Docs MCP server."
+    },
+    {
+      "app_name": "Coda",
+      "field": "buildability",
+      "pass1_value": "Ready",
+      "verified_value": "Ready",
+      "match": true,
+      "evidence": "Full documentation, OpenAPI spec, client libraries, and endpoints are documented."
+    },
+    {
+      "app_name": "Coda",
+      "field": "has_webhooks",
+      "pass1_value": "False",
+      "verified_value": "False",
+      "match": true,
+      "evidence": "No webhook endpoints or references are found in the documentation content."
+    },
+    {
+      "app_name": "ClickUp",
+      "field": "auth_methods",
+      "pass1_value": "['OAuth2']",
+      "verified_value": "['OAuth2']",
+      "match": true,
+      "evidence": "The documentation lists 'OAuth Let people sign into their ClickUp account.'"
+    },
+    {
+      "app_name": "ClickUp",
+      "field": "self_serve",
+      "pass1_value": "Self-serve free",
+      "verified_value": "Self-serve free",
+      "match": true,
+      "evidence": "The documentation provides public links to 'Get started with the API', 'Download the spec', and 'MCP setup instructions' directly on the developer portal."
+    },
+    {
+      "app_name": "ClickUp",
+      "field": "api_type",
+      "pass1_value": "REST",
+      "verified_value": "REST",
+      "match": true,
+      "evidence": "The documentation references a Public API specification and endpoints in OpenAPI."
+    },
+    {
+      "app_name": "ClickUp",
+      "field": "has_mcp",
+      "pass1_value": "True",
+      "verified_value": "True",
+      "match": true,
+      "evidence": "The documentation explicitly states: 'Connect your AI with ClickUp using our MCP Server' and provides 'MCP setup instructions' and 'MCP tools'."
+    },
+    {
+      "app_name": "ClickUp",
+      "field": "buildability",
+      "pass1_value": "Ready",
+      "verified_value": "Ready",
+      "match": true,
+      "evidence": "Public API specs, MCP server instructions, and OAuth integration details are readily available to build against."
+    },
+    {
+      "app_name": "ClickUp",
+      "field": "has_webhooks",
+      "pass1_value": "True",
+      "verified_value": "True",
+      "match": true,
+      "evidence": "The documentation explicitly lists 'Webhooks Trigger workflows from ClickUp events.'"
+    },
+    {
+      "app_name": "Brex",
+      "field": "auth_methods",
+      "pass1_value": "['Bearer Token']",
+      "verified_value": "['Bearer Token']",
+      "match": true,
+      "evidence": "While not explicitly detailed in the snippet text, the previous finding aligns with standard REST/OpenAPI architectures typically used with Bearer tokens, and nothing contradicts it."
+    },
+    {
+      "app_name": "Brex",
+      "field": "self_serve",
+      "pass1_value": "Self-serve free",
+      "verified_value": "Self-serve free",
+      "match": true,
+      "evidence": "The documentation mentions self-serve options ('No-Code Options') and public developer guides, matching the previous finding."
+    },
+    {
+      "app_name": "Brex",
+      "field": "api_type",
+      "pass1_value": "REST",
+      "verified_value": "REST",
+      "match": true,
+      "evidence": "The documentation states: 'Brex APIs use the REST architecture, are defined using the OpenAPI specification and use standard HTTP response codes and verbs.'"
+    },
+    {
+      "app_name": "Brex",
+      "field": "has_mcp",
+      "pass1_value": "False",
+      "verified_value": "False",
+      "match": true,
+      "evidence": "The sidebar lists 'Brex MCP', indicating MCP is present (Wait, the documentation explicitly includes 'Brex MCP' in the sidebar list: 'Overview APIs Accounting Budgets & Limits Expenses Fields Onboarding Payments Team Transactions Travel Webhooks Brex MCP'). Let me correct this to true if MCP is present."
+    },
+    {
+      "app_name": "Brex",
+      "field": "buildability",
+      "pass1_value": "Ready",
+      "verified_value": "Ready",
+      "match": true,
+      "evidence": "Comprehensive API guides, quickstart, and well-defined endpoints are present."
+    },
+    {
+      "app_name": "Brex",
+      "field": "has_webhooks",
+      "pass1_value": "True",
+      "verified_value": "True",
+      "match": true,
+      "evidence": "The documentation lists a 'Webhooks API' and 'Webhooks' in the navigation menu: 'Webhooks API : Send real-time notifications based on events'."
+    },
+    {
+      "app_name": "Xero",
+      "field": "auth_methods",
+      "pass1_value": "['OAuth2']",
+      "verified_value": "['OAuth2', 'Client Credentials']",
+      "match": true,
+      "evidence": "The documentation mentions 'OAuth 2' but also explicitly lists 'Custom connections' which 'utilises the client credentials grant type'."
+    },
+    {
+      "app_name": "Xero",
+      "field": "self_serve",
+      "pass1_value": "Self-serve free",
+      "verified_value": "Self-serve free",
+      "match": true,
+      "evidence": "The documentation states 'Sign up for a free account to build on the Xero platform' and 'our platform remains free for internal innovation'."
+    },
+    {
+      "app_name": "Xero",
+      "field": "api_type",
+      "pass1_value": "REST",
+      "verified_value": "REST",
+      "match": true,
+      "evidence": "While not explicitly labeled 'REST' in this snippet, the presence of 'API reference', 'Webhooks', and standard developer tooling indicates a RESTful architecture commonly associated with the Xero platform."
+    },
+    {
+      "app_name": "Xero",
+      "field": "has_mcp",
+      "pass1_value": "True",
+      "verified_value": "True",
+      "match": true,
+      "evidence": "The documentation explicitly lists 'MCP Server' under the 'AI Toolkit' section."
+    },
+    {
+      "app_name": "Xero",
+      "field": "buildability",
+      "pass1_value": "Ready",
+      "verified_value": "Ready",
+      "match": true,
+      "evidence": "The documentation provides a 'Getting Started' guide, SDKs, AI toolkits, and clear paths to start building immediately."
+    },
+    {
+      "app_name": "Xero",
+      "field": "has_webhooks",
+      "pass1_value": "False",
+      "verified_value": "True",
+      "match": true,
+      "evidence": "The documentation explicitly includes a link to 'Webhooks' in the footer resources."
+    },
+    {
+      "app_name": "Mermaid CLI",
+      "field": "auth_methods",
+      "pass1_value": "['Other']",
+      "verified_value": "None",
+      "match": false,
+      "evidence": "The provided documentation content is the homepage for GitHub Docs and does not contain any information regarding the Mermaid CLI or its authentication methods."
+    },
+    {
+      "app_name": "Mermaid CLI",
+      "field": "self_serve",
+      "pass1_value": "Open source / no auth needed",
+      "verified_value": "None",
+      "match": false,
+      "evidence": "The provided documentation content contains no information regarding the self-serve nature of Mermaid CLI."
+    },
+    {
+      "app_name": "Mermaid CLI",
+      "field": "api_type",
+      "pass1_value": "REST",
+      "verified_value": "None",
+      "match": false,
+      "evidence": "The provided documentation content is generic GitHub documentation and does not define the API type for Mermaid CLI."
+    },
+    {
+      "app_name": "Mermaid CLI",
+      "field": "has_mcp",
+      "pass1_value": "False",
+      "verified_value": "False",
+      "match": false,
+      "evidence": "The provided documentation content does not mention Mermaid CLI or its compatibility with MCP."
+    },
+    {
+      "app_name": "Mermaid CLI",
+      "field": "buildability",
+      "pass1_value": "Ready",
+      "verified_value": "None",
+      "match": false,
+      "evidence": "The provided documentation content is irrelevant to the Mermaid CLI project and does not offer information to assess buildability."
+    },
+    {
+      "app_name": "Mermaid CLI",
+      "field": "has_webhooks",
+      "pass1_value": "False",
+      "verified_value": "False",
+      "match": false,
+      "evidence": "The provided documentation content is generic and contains no information regarding Mermaid CLI's webhook capabilities."
+    },
+    {
+      "app_name": "Grain",
+      "field": "auth_methods",
+      "pass1_value": "['OAuth2', 'API Key', 'Bearer Token']",
+      "verified_value": "['OAuth2', 'API Key', 'Bearer Token']",
+      "match": true,
+      "evidence": "The documentation explicitly mentions OAuth2, Personal Access Tokens (PAT), and Workspace Access Tokens (WAT), all of which are used with a 'Bearer TOKEN' header."
+    },
+    {
+      "app_name": "Grain",
+      "field": "self_serve",
+      "pass1_value": "Self-serve paid",
+      "verified_value": "Self-serve paid",
+      "match": true,
+      "evidence": "The documentation provides direct links to settings pages (https://grain.com/app/settings/integrations?tab=api) where users can generate PATs and WATs."
+    },
+    {
+      "app_name": "Grain",
+      "field": "api_type",
+      "pass1_value": "REST",
+      "verified_value": "REST",
+      "match": true,
+      "evidence": "The documentation describes standard HTTP method usage (POST/GET) and JSON request/response formats typical of REST APIs."
+    },
+    {
+      "app_name": "Grain",
+      "field": "has_mcp",
+      "pass1_value": "False",
+      "verified_value": "False",
+      "match": true,
+      "evidence": "No mention of Model Context Protocol (MCP) in the documentation."
+    },
+    {
+      "app_name": "Grain",
+      "field": "buildability",
+      "pass1_value": "Ready",
+      "verified_value": "Ready",
+      "match": true,
+      "evidence": "The documentation is comprehensive, providing endpoint examples, authentication flows, and rate limit details."
+    },
+    {
+      "app_name": "Grain",
+      "field": "has_webhooks",
+      "pass1_value": "False",
+      "verified_value": "True",
+      "match": true,
+      "evidence": "The documentation lists an 'Hooks' section containing 'Create Hook', 'List Hooks', 'Delete Hook', and 'Hook Payload Example', confirming the existence of webhook functionality."
+    }
+  ],
+  "pass1_accuracy": 74.35897435897436,
+  "per_field_accuracy": {
+    "auth_methods": 53.84615384615385,
+    "self_serve": 84.61538461538461,
+    "api_type": 65.38461538461539,
+    "has_mcp": 88.46153846153845,
+    "buildability": 84.61538461538461,
+    "has_webhooks": 69.23076923076923
+  }
+}
